@@ -1,0 +1,15 @@
+
+.col>img{
+    width: 100%;
+}
+.container{
+    text-align: center;
+    margin:  auto;
+    margin-top: 70px;
+}
+
+button:hover{
+
+    background-color: black;
+    color: white;
+} 
