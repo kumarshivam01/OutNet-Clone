@@ -1,0 +1,99 @@
+#pic{
+    height: auto;
+width: 1300px;
+border: 1px solid black;
+margin: auto;
+}
+#login-form-div{
+    height: auto;
+    width: 500px;
+    margin: auto;  
+    text-align: center;
+    border: 1px solid;
+    text-align: left;
+    
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+#form{
+    margin: auto;
+}
+#pic{
+    height: auto;
+width: 1300px;
+border: 1px solid black;
+margin: auto;
+}
+#pics{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    border: 1px solid black;
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+#welcome{
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+}
+#welcometext{
+    font-weight:100;
+    margin-left: auto;
+}
+#email{
+    height: 79px;
+    width: 100%;
+    border: 1 px solid black;
+}
+#login-form-div{
+    height: auto;
+    width: 500px;
+    margin: auto;  
+    text-align: center;
+    border: 1px solid;
+    text-align: left;
+    
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.mana{
+    margin-left: 25px;
+}
+.f1{
+    width: 90%;
+    margin-bottom: 40px;
+    padding: 5px;
+margin-left: 15px;
+    height: 30px;
+}
+
+#signinbu{
+    width: 94%;
+    height: 43px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border-bottom: 30px;
+    margin-left: 20px;
+}
+
+
+.f2{
+    color: grey;
+    margin-left: 20px;
+    /* margin-bottom: 0px; */
+}
+.line{
+    border: 1px solid black;
+}
+
+
+.f3{
+    margin-top: 0px;
+    margin-left: 20px;
+}
