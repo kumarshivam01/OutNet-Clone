@@ -76,3 +76,24 @@
 .span2{
     font-size: 11px;
 }
+@media screen and (max-width: 992px) {
+    .footer_container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bottom_footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .footer_container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bottom_footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+  }
