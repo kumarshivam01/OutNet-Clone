@@ -15,6 +15,7 @@ export default function Women() {
           para4="These new arrivals are packed with personality"
           button2="SHOP TORY BURCH"
         />
+        <Crausal/>
       </>
     
   )
