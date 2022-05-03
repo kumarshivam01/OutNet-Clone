@@ -1,6 +1,7 @@
 import React from 'react'
 import WomenCrausal from './WomenCrausal'
 import MenAndWomen from './MenAndWomen'
+import Footer from './Footer'
 import ClothesCategory from './ClothesCategory'
 const left_img = "https://www.theoutnet.com/cms/ycm/resource/blob/1251090/8265d19173eb9720cf82cf3366478685/main-1-image-data.jpg/w1400_q80.jpg"
 const right_img = "https://www.theoutnet.com/cms/ycm/resource/blob/1251106/bb000716294ea50149d3ef65d0a62e3b/main-2-image-data.jpg/w1400_q80.jpg"
@@ -33,6 +34,7 @@ export default function Women() {
         para4="Step into bloom with these floral dresses get more for new session"
 
          />
+         <Footer/>
       </>
     
   )

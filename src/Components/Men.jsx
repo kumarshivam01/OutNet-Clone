@@ -2,6 +2,7 @@ import React from 'react'
 import Crausal from './MenCrausal'
 import MenAndWomen from './MenAndWomen'
 import ClothesCategory from './ClothesCategory'
+import Footer from './Footer'
 const left_img = "https://www.theoutnet.com/cms/ycm/resource/blob/1251934/9bbc2ec8fdb95b5c9cbb0e91407cdc6d/main-1-intl-image-data.jpg/w1400_q80.jpg"
 const right_img = "https://www.theoutnet.com/cms/ycm/resource/blob/1251940/3bde0024b9c46fdc80cd97b9494d4e0c/main-2-intl-image-data.jpg/w1400_q80.jpg"
 export default function Women() {
@@ -33,6 +34,7 @@ export default function Women() {
         para4="Print, plain and perfect -- tees to keep on rotaion"
 
          />
+         <Footer/>
       </>
     
   )
