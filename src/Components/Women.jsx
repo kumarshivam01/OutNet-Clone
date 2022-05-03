@@ -1,4 +1,5 @@
 import React from 'react'
+import Crausal from './Crausal'
 import MenAndWomen from './MenAndWomen'
 const left_img = "https://www.theoutnet.com/cms/ycm/resource/blob/1251090/8265d19173eb9720cf82cf3366478685/main-1-image-data.jpg/w1400_q80.jpg"
 const right_img = "https://www.theoutnet.com/cms/ycm/resource/blob/1251106/bb000716294ea50149d3ef65d0a62e3b/main-2-image-data.jpg/w1400_q80.jpg"
