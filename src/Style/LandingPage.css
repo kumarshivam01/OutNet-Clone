@@ -1,0 +1,33 @@
+.landing_page{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    text-align: center;
+    padding: 40px;
+}
+.landing_img{
+    width: 100%;
+}
+.landing_div{
+    margin-bottom: 150px;
+}
+.landing_div>li{
+    list-style: none;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.landing_div>a{
+    text-decoration: none;
+    color: black;
+}
+.landing_para{
+    margin-top: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.landing_heading{
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+    
+}
