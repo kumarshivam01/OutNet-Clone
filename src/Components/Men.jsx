@@ -32,7 +32,6 @@ export default function Women() {
         button1="SHOP CASUAL JACKETS"
         para2="Get ready for the sun in these just in jackets"
         para4="Print, plain and perfect -- tees to keep on rotaion"
-
          />
          <Footer/>
       </>

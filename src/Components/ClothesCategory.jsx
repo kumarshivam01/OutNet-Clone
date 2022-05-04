@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Style/ClothesCategory.css'
+import { Link } from 'react-router-dom'
 export default function ClothesCategory(props) {
   return (
     <div>
@@ -21,7 +22,7 @@ export default function ClothesCategory(props) {
             <img src={props.paint} alt="" />
             <p style={{fontSize:"18px", textAlign:"center",marginTop:"25px"}} classNameName='para-1'>{props.para5}</p>
             <p classNameName='para-2'>{props.para6}</p>
-            <button style={{border:"none", padding:"15px",border:"1px solid black",}}>{props.button3}</button>
+            <button style={{border:"none", padding:"15px",border:"1px solid black",}}><Link to="/men/clothing">{props.button3}</Link></button>
           </div>
         </div>
       </div>

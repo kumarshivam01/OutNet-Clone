@@ -9,6 +9,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useSelector } from 'react-redux'
 import LandingPage from './Components/LandingPage';
+import Product_display from './Components/Product_display';
 function App() {
   // const { isAuthenticated } = useSelector((state) => state.login)
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path='/men' element={<Men />} />
         <Route exact path='/women' element={<Women />} />
         <Route exact path='/' element={<LandingPage/>}/>
+        <Route exact path='/men/clothing' element={<Product_display/>}/>
         <Route element={<Error />} />
         
         {/* <Route path='/' element={<Home />} />
