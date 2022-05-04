@@ -1,0 +1,44 @@
+
+
+
+#p{
+    height: 700px;
+width: 1300px;
+border: 1px solid transparent;
+margin: auto;
+background: url("https://www.theoutnet.com/assets/ton-background-images/high-res.jpg");
+}
+#login-form-di{
+    height: 600px;
+    width: 500px;
+    margin:80px auto;  
+    text-align: center;
+   /* border: 1px solid red; */
+    text-align: left;
+    background-color: white;
+   
+}
+#fu{
+    margin-top: 50px;
+}
+.f{
+    width: 90%;
+    margin-bottom: 40px;
+    padding: 5px;
+margin-left: 15px;
+    height: 40px;
+}
+#forge{
+    border-left: 20px;
+    margin-left: 20px;
+}
+#signinbu{
+    width: 94%;
+    height: 43px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border-bottom: 30px;
+    margin-left: 20px;
+}
