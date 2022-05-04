@@ -1,19 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 //  import { Provider } from 'react-redux'
- import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 //  import { store } from './Redux/store'
 import './index.css';
 import App from './App';
+// <<<<<<< HEAD
 // import reportWebVitals from './reportWebVitals';
+// =======
+// import reportWebVitals from './reportWebVitals';
+
+// >>>>>>> 37314e5385b8c2d74b0005caaa768e9873a1c60e
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     {/* <Provider store={store}> */}
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
-  {/* </Provider> */}
+    {/* <Provider store={store}> */}
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+    {/* </Provider> */}
   </React.StrictMode>
 );
 
@@ -38,6 +43,6 @@ root.render(
 //       <BrowserRouter>
 //          <App />
 //       </BrowserRouter>
-//     </Provider>  
+//     </Provider>
 //   </React.StrictMode>
 // )
