@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Style.css/Crausal.css'
+import '../Style/Crausal.css'
 export default function Crausal() {
   return (
     <>

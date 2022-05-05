@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Style.css/MenAndWomen.css'
+import '../Style/MenAndWomen.css'
 export default function MenAndWomen(props) {
     return (
         <>
