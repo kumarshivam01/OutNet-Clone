@@ -67,8 +67,30 @@
     background-color: white;
     color: black;
 }
-/* .total_result{
-    margin-top: 20px;
-    font-size: 20px;
-} */
-/* 247*453 */
+@media screen and (max-width: 992px) {
+    .product_display{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    .product_display_div{
+        /* border: 1px solid black; */
+        margin: auto;
+        /* width: 247px; */
+    }
+    
+  }
+  
+@media screen and (max-width: 600px) {
+    .product_display{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .product_display_div{
+        /* border: 1px solid black; */
+        margin: auto;
+        /* width: 247px; */
+    }
+    
+  }
