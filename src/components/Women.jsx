@@ -168,7 +168,7 @@ export const Women=()=>{
                 setStyle({display: 'none'})
             }}>
             <div>
-                <h3 className="line-w">Shop by Category</h3><hr></hr>
+                <h3 className="line-w">Shop by Category</h3>
                 <p>All Superbrands</p>
                 <p>Bags</p>
                 <p>Boots</p>
