@@ -85,12 +85,12 @@ export default function Product_display(props) {
               <>
                 <div>
                   <div className='product_display_div'>
-                    <img src={value.image} alt="" />
+                    <img src={value.image[1]} alt="" />
                     <div>
                       <span className='product_heading'>{value.name}</span><br />
                       <span className='product_description'>{value.about}</span><br />
                       <span className='product_rate'>$ {value.price}</span><br />
-                      <span className='product_discount'>{value.discount}</span><br />
+                      <span className='product_discount'> <span style={{textDecoration:"line-through", marginRight:"10px"}}>$ {value.crossprice}{" "} </span> {value.discount}</span><br />
                     </div>
                   </div>
                 </div>

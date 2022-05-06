@@ -7,6 +7,17 @@
 }
 .product_sorting>select{
     width: 300px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border:1px solid rgb(166, 161, 161)
+}
+option{
+    /* width: 300px; */
+    /* border: none; */
+    /* outline: none; */
+    padding: 15px;
+    /* border:1px solid rgb(166, 161, 161) */
 }
 .product_filter_display{
     display: flex;
