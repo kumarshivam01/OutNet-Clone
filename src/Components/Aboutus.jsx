@@ -1,7 +1,9 @@
 import "../Style/Aboutus.css"
-
+import Footer from './Footer'
 function AboutUs(){
-    return <div className="center">
+    return(
+         <>
+              <div className="center">
         <div  id="bold" className="margintop">ABOUT US</div>
         <div className="margintop">Launched in 2009, THE OUTNET has since established itself as the benchmark of luxury discount shopping, <br></br>offering over 350 designer fashion brands at exceptional prices of up to 70% off.</div>
         <div className="margintop">Strong relationships with leading luxury brands elevates THE OUTNET, with a dedicated buying team in <br />London purchasing over 90% of stock direct. THE OUTNET is renowned for high-end designer collaborations,<br />offering unique and limited-edition exclusives for its discerning global customers alongside in-house label Iris <br />  & Ink.</div>
@@ -75,7 +77,11 @@ function AboutUs(){
                  <button id="buttonstyle" className="margintop">Discover Now</button>
             </div>
         </div>
+        <Footer/>
     </div>
+    <Footer/>
+         </>
+    )
       
 }
 export {AboutUs}

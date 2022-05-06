@@ -12,28 +12,28 @@ export default function Footer() {
                         <div>
                             <ul>
                                 <li><Link to="/aboutus">About Us</Link></li>
-                                <li><a href="">Affiliates</a></li>
-                                <li><a href="">Careers</a></li>
-                                <li><a href="">Contact Us</a></li>
-                                <li><a href="">Help</a></li>
-                                <li><a href="">Clothing Care Guide</a></li>
-                                <li><a href="">Fit Analytics</a></li>
-                                <li><a href="">Privacy Policy</a></li>
-                                <li><a href="">Terms and Conditions</a></li>
-                                <li><a href="">Our Considered Pledge</a></li>
+                                <li><Link to="">Affiliates</Link></li>
+                                <li><Link to="">Careers</Link></li>
+                                <li><Link to="">Contact Us</Link></li>
+                                <li><Link to="">Help</Link></li>
+                                <li><Link to="">Clothing Care Guide</Link></li>
+                                <li><Link to="">Fit Analytics</Link></li>
+                                <li><Link to="">Privacy Policy</Link></li>
+                                <li><Link to="">Terms and Conditions</Link></li>
+                                <li><Link to="">Our Considered Pledge</Link></li>
                             </ul>
                         </div>
                         <div>
                         <ul>
-                                <li><a href="">Payment</a></li>
-                                <li><a href="">Delivery</a></li>
-                                <li><a href="">Returns</a></li>
-                                <li><a href="">Track your Order</a></li>
-                                <li><a href="">Create a Return</a></li>
-                                <li><a href="">Track your Return</a></li>
-                                <li><a href="">Cookie Policy</a></li>
-                                <li><a href="">Cookie Center</a></li>
-                                <li><a href="">Our Resale Service</a></li>
+                                <li><Link to="">Payment</Link></li>
+                                <li><Link to="">Delivery</Link></li>
+                                <li><Link to="">Returns</Link></li>
+                                <li><Link to="">Track your Order</Link></li>
+                                <li><Link to="">Create a Return</Link></li>
+                                <li><Link to="">Track your Return</Link></li>
+                                <li><Link to="">Cookie Policy</Link></li>
+                                <li><Link to="">Cookie Center</Link></li>
+                                <li><Link to="">Our Resale Service</Link></li>
                             </ul>
                         </div>
                     </div>
