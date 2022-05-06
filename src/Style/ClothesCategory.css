@@ -1,5 +1,5 @@
 
-.col>img{
+.col>a>img{
     width: 100%;
 }
 .container{
@@ -9,9 +9,25 @@
     margin-bottom: 70px;
 }
 a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    /* text-decoration: none; */
+}
+/* a{
     text-decoration: none;
     color: black;
 }
+Link{
+    text-decoration: none;
+    color: black;
+}
+Link:hover{
+    text-decoration: none;
+    color: white;
+} */
 button:hover{
 
     background-color: black;

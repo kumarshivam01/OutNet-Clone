@@ -7,6 +7,14 @@ import "slick-carousel/slick/slick-theme.css";
 import LandingPage from './Components/LandingPage';
 import MenCollection from './Components/MenCollection';
 import WomenCollection from './Components/WomenCollection';
+import Dolcegabbana from './Components/Dolcegabbana';
+import HelmetLang from './Components/HelmetLang';
+import MensShirts from './Components/MensShirts';
+import MensJacket from './Components/MensJacket';
+import AliceOlivia from './Components/AliceOlivia';
+import Blazers from './Components/Blazers';
+import Sandal from './Components/Sandal';
+import MidiSkirts from './Components/MidiSkirts';
 // import ProductDisplay from './Components/Product_display';
 function App() {
   // const { isAuthenticated } = useSelector((state) => state.login)
@@ -17,8 +25,16 @@ function App() {
         <Route exact path='/men' element={<Men />} />
         <Route exact path='/women' element={<Women />} />
         <Route exact path='/' element={<LandingPage/>}/>
-        <Route exact path='/men/clothing' element={<MenCollection/>}/>
-        <Route exact path='/women/clothing' element={<WomenCollection/>}/>
+        <Route exact path='/men/pant-clothes' element={<MenCollection/>}/>
+        <Route exact path='/women/valantion-clothes' element={<WomenCollection/>}/>
+        <Route exact path='/women/alice-olivia-clothes' element={<AliceOlivia/>}/>
+        <Route exact path='/women/blazers-clothes' element={<Blazers/>}/>
+        <Route exact path='/women/sandal-clothes' element={<Sandal/>}/>
+        <Route exact path='/women/midi-skirts-clothes' element={<MidiSkirts/>}/>
+        <Route exact path='/men/dolce-gabbana-clothes' element={<Dolcegabbana/>}/>
+        <Route exact path='/men/helmet-Lang-clothes' element={<HelmetLang/>}/>
+        <Route exact path='/men/mens-shirts-clothes' element={<MensShirts/>}/>
+        <Route exact path='/men/mens-jacket-clothes' element={<MensJacket/>}/>
         <Route element={<Error />} />
         
         

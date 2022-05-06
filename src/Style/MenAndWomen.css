@@ -7,12 +7,12 @@
     grid-template-columns: repeat(2,1fr);
 }
 
-.left-img>img{
+.left-img>a>img{
     /* border: 1px solid black; */
     width: 100%;
     /* height: 39rem; */
 }
-.right-img>img{
+.right-img>a>img{
     /* border: 1px solid black; */
     width: 100%;
     /* height: 39rem; */

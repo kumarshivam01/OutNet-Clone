@@ -2,12 +2,22 @@ import React, { useState } from 'react'
 import '../Style/Product_display.css'
 export default function Product_display(props) {
   console.log(props.Data)
-  
-// console.log(props.Data.price)
+
+  // console.log(props.Data.price)
   return (
     <>
       <div>
-
+        <div className='clothes-heading'>
+          <div className='clothes-details'>
+            <h3 className='span10'>{props.heading10}</h3><br />
+            <p>{props.para10}</p>
+          </div>
+          <div className='clothes-img'>
+            <img src={props.img10} alt="" />
+          </div>
+          
+        </div>
+        <hr />
         <div className='product_sorting'>
           <p className='total_result'>{props.Data.length} Result</p>
           <select >
@@ -80,23 +90,23 @@ export default function Product_display(props) {
           </div>
 
           <div className='product_display'>
-          {props.Data.map((value) => {
-            return (
-              <>
-                <div>
-                  <div className='product_display_div'>
-                    <img src={value.image[1]} alt="" />
-                    <div>
-                      <span className='product_heading'>{value.name}</span><br />
-                      <span className='product_description'>{value.about}</span><br />
-                      <span className='product_rate'>$ {value.price}</span><br />
-                      <span className='product_discount'> <span style={{textDecoration:"line-through", marginRight:"10px"}}>$ {value.crossprice}{" "} </span> {value.discount}</span><br />
+            {props.Data.map((value) => {
+              return (
+                <>
+                  <div>
+                    <div className='product_display_div'>
+                      <img src={value.image[1]} alt="" />
+                      <div>
+                        <span className='product_heading'>{value.name}</span><br />
+                        <span className='product_description'>{value.about}</span><br />
+                        <span className='product_rate'>$ {value.price}</span><br />
+                        <span className='product_discount'> <span style={{ textDecoration: "line-through", marginRight: "10px" }}>$ {value.crossprice}{" "} </span> {value.discount}</span><br />
+                      </div>
                     </div>
                   </div>
-                </div>
-              </>
-            )
-          })}
+                </>
+              )
+            })}
           </div>
 
 

@@ -78,6 +78,28 @@ option{
     background-color: white;
     color: black;
 }
+.clothes-heading{
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 0 12%;
+    gap: 15%;
+    /* grid-template-columns: repeat(2,1fr); */
+}
+.clothes-details{
+    padding: 45px;
+    font-size: 12px;
+}
+.clothes-img{
+    /* border: 1px solid black; */
+}
+.clothes-img>img{
+    width: 300px;
+}
+.span10{
+    font-weight: 400;
+    font-size: 25px;
+    /* padding: 30px 0; */
+}
 @media screen and (max-width: 992px) {
     .product_display{
         display: grid;
@@ -89,6 +111,10 @@ option{
         margin: auto;
         /* width: 247px; */
     }
+    .clothes-img{
+        display: none;
+    }
+    
     
   }
   
@@ -102,6 +128,9 @@ option{
         /* border: 1px solid black; */
         margin: auto;
         /* width: 247px; */
+    }
+    .clothes-img{
+        display: none;
     }
     
   }

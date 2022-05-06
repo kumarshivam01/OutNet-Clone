@@ -3,9 +3,9 @@ import Crausal from './MenCrausal'
 import MenAndWomen from './MenAndWomen'
 import ClothesCategory from './ClothesCategory'
 import Footer from './Footer'
-const left_img = "https://www.theoutnet.com/cms/ycm/resource/blob/1251934/9bbc2ec8fdb95b5c9cbb0e91407cdc6d/main-1-intl-image-data.jpg/w1400_q80.jpg"
-const right_img = "https://www.theoutnet.com/cms/ycm/resource/blob/1251940/3bde0024b9c46fdc80cd97b9494d4e0c/main-2-intl-image-data.jpg/w1400_q80.jpg"
-export default function Women() {
+const left_img = "https://www.theoutnet.com/cms/ycm/resource/blob/1258138/4b5cb3ae56decf05cfc7350d958341e8/main-1-intl-image-data.jpg/w1400_q80.jpg"
+const right_img = "https://www.theoutnet.com/cms/ycm/resource/blob/1258144/6d85aef7b91bfcb9cc17a9cd39f02d1a/main-2-intl-image-data.jpg/w1400_q80.jpg"
+export default function Men() {
   return (
       <>
         <MenAndWomen
@@ -16,7 +16,7 @@ export default function Women() {
          button1="SHOP HELMUT LANG"
           para3="OFF-WHITE AT UP TO 70% OFF"
           para4="Iconic streetwear made for high-impact dressing"
-          button2="SHOP OFF-WHITE"
+          button2="SHOP DOLCE & GABBANA"
         />
         <Crausal/>
         <ClothesCategory 
