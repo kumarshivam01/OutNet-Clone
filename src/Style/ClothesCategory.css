@@ -17,3 +17,22 @@ button:hover{
     background-color: black;
     color: white;
 } 
+
+@media screen and (max-width: 992px) {
+    .row{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+   
+  }
+  
+@media screen and (max-width: 600px) {
+    .row{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    
+    
+  }

@@ -79,10 +79,14 @@
 @media screen and (max-width: 992px) {
     .footer_container{
         display: grid;
+        margin: auto;
+        text-align: center;
         grid-template-columns: repeat(1,1fr);
     }
     .bottom_footer{
         display: grid;
+        gap: 25px;
+        text-align: center;
         grid-template-columns: repeat(1,1fr);
     }
   }
@@ -91,9 +95,16 @@
     .footer_container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        margin: auto;
     }
     .bottom_footer{
         display: grid;
+        gap: 25px;
+        text-align: center;
         grid-template-columns: repeat(1,1fr);
+    }
+    .input_subscribe{
+        display: grid;
+        gap: 15px;
     }
   }
