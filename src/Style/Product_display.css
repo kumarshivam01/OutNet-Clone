@@ -37,7 +37,7 @@ option{
     padding: 10px;
     /* width: 247px; */
 }
-.product_display_div>img{
+.product_display_div>a>img{
     width: 247px;
     /* border: 1px solid black; */
     height: 323px;

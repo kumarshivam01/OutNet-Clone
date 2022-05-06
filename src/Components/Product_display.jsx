@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import '../Style/Product_display.css'
+import Abcd from './Abcd'
+import { Link } from 'react-router-dom'
 export default function Product_display(props) {
   console.log(props.Data)
 
@@ -94,8 +96,8 @@ export default function Product_display(props) {
               return (
                 <>
                   <div>
-                    <div className='product_display_div'>
-                      <img src={value.image[1]} alt="" />
+                    <div className='product_display_div' >
+                      <Link to={`/products/${value._id}`}><img src={value.image[1]} alt="" /></Link>
                       <div>
                         <span className='product_heading'>{value.name}</span><br />
                         <span className='product_description'>{value.about}</span><br />

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+
+}
+.wrapper{
+    width:90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.all-images{
+    height: 80vh;
+    display: flex;
+    
+}
+.small-images{
+    display: flex;
+    flex-direction: column;
+}
+.main-images img{
+    width: 350px;
+}
+.small-images img{
+    height: 19vh;
+    margin-bottom: 9px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.small-images img:hover{
+    opacity: 1;
+}
