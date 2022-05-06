@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Style/Footer.css'
+import { Link } from 'react-router-dom'
 export default function Footer() {
     return (
         <>
@@ -10,7 +11,7 @@ export default function Footer() {
                     <div className='left_footer'>
                         <div>
                             <ul>
-                                <li><a href="">About Us</a></li>
+                                <li><Link to="/aboutus">About Us</Link></li>
                                 <li><a href="">Affiliates</a></li>
                                 <li><a href="">Careers</a></li>
                                 <li><a href="">Contact Us</a></li>

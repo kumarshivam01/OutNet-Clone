@@ -15,6 +15,7 @@ import AliceOlivia from './Components/AliceOlivia';
 import Blazers from './Components/Blazers';
 import Sandal from './Components/Sandal';
 import MidiSkirts from './Components/MidiSkirts';
+import { AboutUs } from './Components/Aboutus';
 // import ProductDisplay from './Components/Product_display';
 function App() {
   // const { isAuthenticated } = useSelector((state) => state.login)
@@ -35,6 +36,8 @@ function App() {
         <Route exact path='/men/helmet-Lang-clothes' element={<HelmetLang/>}/>
         <Route exact path='/men/mens-shirts-clothes' element={<MensShirts/>}/>
         <Route exact path='/men/mens-jacket-clothes' element={<MensJacket/>}/>
+        <Route exact path='/aboutus' element={<AboutUs />} />
+
         <Route element={<Error />} />
         
         
