@@ -1,0 +1,83 @@
+.navbar-india{
+    border-radius: 60%;
+    width:35px;
+    height:25px;
+    margin-top:10px;
+    }
+    .nav-sec1{
+    display:flex;
+    padding-left:70px;
+    }
+    .nav-sign-icon{
+    margin-top:12px;
+    font-size:24px;
+    font-weight:heavy;
+    }
+    .nav-innersec{
+        display:flex;
+        margin-left: 20px;
+    }
+    .nav-font-size{
+        font-size:13px;
+    }
+    .nav-sec2{
+        display:flex;
+        padding-right:70px;
+        justify-content:space-between;
+        width:400px;
+        font-size:12px;
+        color:rgb(71, 70, 70);
+    }
+    .navbar-top{
+        display:flex;
+        justify-content: space-between;
+        background-color: rgb(242,242,242)
+       
+    }
+    .nav-color{
+        color:grey;
+    }
+    .basket{
+        width:25px;
+        height:25px;
+    }
+    .navbar-bottom{
+        display:flex;
+        justify-content: space-between;
+        padding-left: 120px;
+        padding-right:120px;
+        font-family: Segoe UI;
+    }
+    .sec1{
+        display:flex; 
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 22px;
+        
+    
+    }
+    .sec2{
+        display:flex;
+        font-size: 20px;
+        width:180px;
+        justify-content: space-between;
+        height:27px;
+        margin-top: 40px;
+    }
+    .women{
+    
+        border-right:1px solid rgb(174, 174, 174);
+        height:27px;
+        padding-right: 10px;
+    }
+    .men{
+        padding-left: 10px;
+    }
+    .search{
+     border-right:1px solid rgb(174, 174, 174);
+     padding-right: 10px;
+    }
+    .title{
+        font-size:35px;
+        font-weight: 500;
+    }

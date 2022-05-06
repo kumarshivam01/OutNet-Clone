@@ -1,7 +1,9 @@
 import React,{useState, useEffect} from 'react'
 import '../Style/MenCollection.css'
+import { NavBar } from "./NavBar"
 import Product_display from './Product_display'
 import axios from "axios";
+import Footer from './Footer';
 export default function AliceOlivia() {
     const [data, setData] = useState([])
     const getData = async()=>{
@@ -21,7 +23,9 @@ export default function AliceOlivia() {
       const img10 ="https://www.theoutnet.com/ycm/resource/blob/462796/79cf1b799059c1a7dc5dd326e69b3307/alice-and-olivia-image-s-data.jpg?imwidth=3000&improfile=isc"
   return (
     <>
+    <NavBar/>
         <Product_display Data={data} para10={para10} heading10={heading10} img10={img10} />
+        <Footer/>
     </>
   )
 }

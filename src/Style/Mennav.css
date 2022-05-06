@@ -1,0 +1,44 @@
+.main{
+    font-family: Segoe UI;
+    }
+.cat-men{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 290px;
+    padding-right:290px;
+    color:grey;
+    font-size:13.5px;
+}
+.men-hover:hover{
+    color:black
+}
+.JustIn-m,.Bestsellers-m,.Designers-m,.Clothing-m,.Shoes-m,.Accessories-m,.Sport-m,.discount-m,.Wardrobe-m,.editorial-m{
+    display:none;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size:13.5px;
+    text-align: left;
+}
+.images-m{
+    display:flex;
+}
+.imgae1-m,.image2-m{
+    width: 300px;
+    height: 300px;
+}
+.imgae1-m{
+    margin-right: 30px;
+}
+.color-bold{
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+.line{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(225, 213, 213);
+}
+.margin-top{
+    margin-top:36px;
+} 

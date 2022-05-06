@@ -2,6 +2,8 @@ import React,{useState, useEffect} from 'react'
 import '../Style/MenCollection.css'
 import Product_display from './Product_display'
 import axios from "axios";
+import { NavBar } from "./NavBar"
+import Footer from './Footer';
 export default function WomenCollection() {
     const [data, setData] = useState([])
     const getData = async()=>{
@@ -20,7 +22,9 @@ export default function WomenCollection() {
 
   return (
     <>
+    <NavBar/>
         <Product_display Data={data} para10={para10} heading10={heading10} img10={img10}/>
+        <Footer/>
     </>
   )
 }

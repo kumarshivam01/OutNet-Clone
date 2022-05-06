@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Style/ClothesCategory.css'
 import { Link } from 'react-router-dom'
+import { NavBar } from "./NavBar"
 export default function ClothesCategory(props) {
   return (
     <div>

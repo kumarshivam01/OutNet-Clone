@@ -2,12 +2,14 @@ import React from 'react'
 import WomenCrausal from './WomenCrausal'
 import WomenClothes from './WomenClothes'
 import Footer from './Footer'
+import { NavBar } from "./NavBar"
 import WomenClothesCategory from './WomenClothesCategory'
 const left_img = "https://www.theoutnet.com/cms/ycm/resource/blob/1257526/79cf1b799059c1a7dc5dd326e69b3307/main-1-image-default-data.jpg/w1400_q80.jpg"
 const right_img = "https://www.theoutnet.com/cms/ycm/resource/blob/1257594/05c3f154611d16ae6637519911b9ef1b/main-2-image-data.jpg/w1400_q80.jpg"
 export default function Women() {
   return (
       <>
+      <NavBar/>
         <WomenClothes
            li={left_img}
          ri={right_img} 

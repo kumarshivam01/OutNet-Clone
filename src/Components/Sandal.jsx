@@ -2,6 +2,8 @@ import React,{useState, useEffect} from 'react'
 import '../Style/MenCollection.css'
 import Product_display from './Product_display'
 import axios from "axios";
+import { NavBar } from "./NavBar"
+import Footer from './Footer';
 export default function Sandal() {
     const [data, setData] = useState([])
     const getData = async()=>{
@@ -21,7 +23,9 @@ export default function Sandal() {
       const img10 ="https://www.theoutnet.com/ycm/resource/blob/462682/537715f486d42dbead517c9059c6590d/sandals-image-data.jpg?imwidth=3000&improfile=isc"
   return (
     <>
+    <NavBar/>
         <Product_display Data={data} para10={para10} heading10={heading10} img10={img10} />
+        <Footer/>
     </>
   )
 }

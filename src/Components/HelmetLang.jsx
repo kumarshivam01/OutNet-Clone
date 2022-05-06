@@ -1,7 +1,9 @@
 import React,{useState, useEffect} from 'react'
 import '../Style/MenCollection.css'
+import { NavBar } from "./NavBar"
 import Product_display from './Product_display'
 import axios from "axios";
+import Footer from './Footer';
 export default function HelmetLang() {
     const [data, setData] = useState([])
     const getData = async()=>{
@@ -21,7 +23,9 @@ export default function HelmetLang() {
       const img10 ="https://www.theoutnet.com/cms/ycm/resource/blob/1258138/4b5cb3ae56decf05cfc7350d958341e8/main-1-intl-image-data.jpg/w1400_q80.jpg"
   return (
     <>
+    <NavBar/>
         <Product_display Data={data} para10={para10} heading10={heading10} img10={img10} />
+        <Footer/>
     </>
   )
 }

@@ -1,7 +1,9 @@
 import React,{useState, useEffect} from 'react'
 import '../Style/MenCollection.css'
+import { NavBar } from "./NavBar"
 import Product_display from './Product_display'
 import axios from "axios";
+import Footer from './Footer';
 export default function Dolcegabbana() {
     const [data, setData] = useState([])
     const getData = async()=>{
@@ -21,7 +23,9 @@ export default function Dolcegabbana() {
       const img10 ="https://www.theoutnet.com/ycm/resource/blob/1238168/6d85aef7b91bfcb9cc17a9cd39f02d1a/dolce-gabbana-cb-image-data.jpg?imwidth=3000&improfile=isc"
   return (
     <>
+    <NavBar/>
         <Product_display Data={data} para10={para10} heading10={heading10} img10={img10} />
+        <Footer/>
     </>
   )
 }

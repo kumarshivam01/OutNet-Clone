@@ -1,8 +1,10 @@
 import "../Style/Aboutus.css"
 import Footer from './Footer'
+import { NavBar } from "./NavBar"
 function AboutUs(){
     return(
          <>
+         <NavBar/>
               <div className="center">
         <div  id="bold" className="margintop">ABOUT US</div>
         <div className="margintop">Launched in 2009, THE OUTNET has since established itself as the benchmark of luxury discount shopping, <br></br>offering over 350 designer fashion brands at exceptional prices of up to 70% off.</div>

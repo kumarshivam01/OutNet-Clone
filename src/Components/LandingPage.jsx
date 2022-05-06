@@ -1,9 +1,11 @@
 import React from 'react'
 import '../Style/LandingPage.css'
 import { Link } from 'react-router-dom'
+import { NavBar } from './NavBar'
 export default function LandingPage() {
   return (
     <>
+    
     <h2 className='landing_heading'>THE OUTNET</h2>
         <div className='landing_page'>
             <div className='landing_div'>

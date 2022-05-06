@@ -16,6 +16,7 @@ import Blazers from './Components/Blazers';
 import Sandal from './Components/Sandal';
 import MidiSkirts from './Components/MidiSkirts';
 import { AboutUs } from './Components/Aboutus';
+// import { NavBar } from './components/NavBar';
 // import ProductDisplay from './Components/Product_display';
 function App() {
   // const { isAuthenticated } = useSelector((state) => state.login)
@@ -23,9 +24,10 @@ function App() {
 
     <>
       <Routes>
+        <Route exact path='/' element={<LandingPage/>}/>
+        {/* <NavBar/> */}
         <Route exact path='/men' element={<Men />} />
         <Route exact path='/women' element={<Women />} />
-        <Route exact path='/' element={<LandingPage/>}/>
         <Route exact path='/men/pant-clothes' element={<MenCollection/>}/>
         <Route exact path='/women/valantion-clothes' element={<WomenCollection/>}/>
         <Route exact path='/women/alice-olivia-clothes' element={<AliceOlivia/>}/>

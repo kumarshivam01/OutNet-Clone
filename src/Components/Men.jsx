@@ -3,11 +3,13 @@ import Crausal from './MenCrausal'
 import MenAndWomen from './MenAndWomen'
 import ClothesCategory from './ClothesCategory'
 import Footer from './Footer'
+import { NavBar } from "./NavBar"
 const left_img = "https://www.theoutnet.com/cms/ycm/resource/blob/1258138/4b5cb3ae56decf05cfc7350d958341e8/main-1-intl-image-data.jpg/w1400_q80.jpg"
 const right_img = "https://www.theoutnet.com/cms/ycm/resource/blob/1258144/6d85aef7b91bfcb9cc17a9cd39f02d1a/main-2-intl-image-data.jpg/w1400_q80.jpg"
 export default function Men() {
   return (
       <>
+      <NavBar/>
         <MenAndWomen
          li={left_img}
          ri={right_img} 
