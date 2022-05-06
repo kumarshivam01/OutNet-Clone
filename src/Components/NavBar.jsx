@@ -41,21 +41,21 @@ const [men,setMen] = useState("Black")
         </div>
         <div className="navbar-bottom">
             <div className="sec1">
-                <p className="women" style={{color:women}} onClick={()=>{
+                <Link to="/women" className="women" style={{color:women}} onClick={()=>{
                     setGender(false)
                     setWomen("Black")
                     setMen("Grey")
-                }}> <Link to="/women">Women</Link></p>
-                <p className="men" style={{color:men}} onClick={()=>{
+                }}> Women</Link>
+                <Link to="/men" className="men" style={{color:men}} onClick={()=>{
                     setGender(true) 
                     setMen("Black")
                     setWomen("Grey")
                    
-                    }}> <Link to="/men">Men</Link> </p>
+                    }}> Men</Link>
             </div>
          <p className="title">THE OUTNET</p>
          <div className="sec2">
-             <span className="search"><HiOutlineSearch></HiOutlineSearch>Search</span>
+             <span className="search"><HiOutlineSearch className="search-icon"></HiOutlineSearch>Search</span>
              <span><FiHeart></FiHeart></span>
              <span><img className="basket" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOCAyMy43Ij48cGF0aCBkPSJNMjYuMyA2LjdsMS43IDE3SDBsMS43LTE3aDcuOEMxMSAxLjkgMTIuNCAwIDE0IDBzMyAxLjkgNC41IDYuN2g3Ljh6TTE0IDEuN2MtLjMgMC0xLjIuNC0yLjcgNWg1LjVjLTEuNi00LjUtMi41LTUtMi44LTV6TTIuNCAyMS42aDIzLjJMMjQuMyA4LjhoLTUuMmMuMyAxIC42IDIuMS45IDMuM2wtMS43LjRjLS4zLTEuMy0uNy0yLjUtMS0zLjdoLTYuOGMtLjQgMS4yLS43IDIuNS0xIDMuN2wtMS43LS40Yy4zLTEuMi42LTIuMy45LTMuM0gzLjZMMi40IDIxLjZ6Ii8+PC9zdmc+" alt="" /></span>
          </div>

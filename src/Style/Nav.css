@@ -19,12 +19,14 @@
     }
     .nav-font-size{
         font-size:13px;
+        margin-top: 12px;
     }
     .nav-sec2{
         display:flex;
         padding-right:70px;
         justify-content:space-between;
-        width:400px;
+        width:500px;
+        margin-top:12px;
         font-size:12px;
         color:rgb(71, 70, 70);
     }
@@ -40,6 +42,7 @@
     .basket{
         width:25px;
         height:25px;
+        margin-bottom: 4px;
     }
     .navbar-bottom{
         display:flex;
@@ -62,7 +65,7 @@
         width:180px;
         justify-content: space-between;
         height:27px;
-        margin-top: 40px;
+        margin-top: 20px;
     }
     .women{
     
@@ -81,3 +84,6 @@
         font-size:35px;
         font-weight: 500;
     }
+.search-icon{
+    margin-bottom: 4px;
+}
