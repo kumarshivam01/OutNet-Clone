@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../Style/Product_display.css'
 export default function Product_display(props) {
-  // console.log(props.Data)
+  console.log(props.Data)
   
 // console.log(props.Data.price)
   return (
@@ -85,7 +85,7 @@ export default function Product_display(props) {
               <>
                 <div>
                   <div className='product_display_div'>
-                    <img src="" alt="" />
+                    <img src={value.image} alt="" />
                     <div>
                       <span className='product_heading'>{value.name}</span><br />
                       <span className='product_description'>{value.about}</span><br />
