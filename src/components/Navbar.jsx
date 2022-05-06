@@ -1,21 +1,15 @@
 import {BsPerson} from 'react-icons/bs'
 import {HiOutlineSearch} from 'react-icons/hi'
 import {FiHeart} from 'react-icons/fi'
-import "./Navbar.css"
+import { useState } from 'react'
+import {Women} from "./Women"
+import { Men} from "./Men"
+import "../Styles/Navbar.css"
 export const Navbar=()=>{
-    const nav=[
-        {title:"Superbrands"},
-        {title:"Just In"},
-        {title:"Bestsellers"},
-        {title:"Designers"},
-        {title:"Clothing"},
-        {title:"Shoes"},
-        {title:"Bags"},
-        {title:"Accessories"},
-        {title:"70% Off"},
-        {title:"Iris & Ink"},
-        {title:"Editorial"},
-    ]
+const [gender,setGender]=useState(false)
+const [women,setWomen] = useState("Grey")
+const [men,setMen] = useState("Black")
+  
     return(
         <div>
             <div className="navbar-top">
@@ -44,8 +38,17 @@ export const Navbar=()=>{
         </div>
         <div className="navbar-bottom">
             <div className="sec1">
-                <p className="women">Women</p>
-                <p className="men">Men</p>
+                <p className="women" style={{color:women}} onClick={()=>{
+                    setGender(false)
+                    setWomen("Black")
+                    setMen("Grey")
+                }}>Women</p>
+                <p className="men" style={{color:men}} onClick={()=>{
+                    setGender(true) 
+                    setMen("Black")
+                    setWomen("Grey")
+                   
+                    }}>Men</p>
             </div>
          <p className="title">THE OUTNET</p>
          <div className="sec2">
@@ -54,13 +57,9 @@ export const Navbar=()=>{
              <span><img className="basket" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOCAyMy43Ij48cGF0aCBkPSJNMjYuMyA2LjdsMS43IDE3SDBsMS43LTE3aDcuOEMxMSAxLjkgMTIuNCAwIDE0IDBzMyAxLjkgNC41IDYuN2g3Ljh6TTE0IDEuN2MtLjMgMC0xLjIuNC0yLjcgNWg1LjVjLTEuNi00LjUtMi41LTUtMi44LTV6TTIuNCAyMS42aDIzLjJMMjQuMyA4LjhoLTUuMmMuMyAxIC42IDIuMS45IDMuM2wtMS43LjRjLS4zLTEuMy0uNy0yLjUtMS0zLjdoLTYuOGMtLjQgMS4yLS43IDIuNS0xIDMuN2wtMS43LS40Yy4zLTEuMi42LTIuMy45LTMuM0gzLjZMMi40IDIxLjZ6Ii8+PC9zdmc+" alt="" /></span>
          </div>
         </div>
-        <div className="category">
-            {nav.map((e)=>{
-                return(
-                    <p className="cat-hover">{e.title}</p>
-                )
-            })}
+       {gender?<Men></Men>:<Women></Women>}
         </div>
-        </div>
+ 
+  
     )
   }

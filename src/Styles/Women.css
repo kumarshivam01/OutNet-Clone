@@ -1,0 +1,53 @@
+.main{
+font-family: Segoe UI;
+}
+.category{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 290px;
+    padding-right:290px;
+    color:grey;
+    font-size:13.5px;
+
+}
+.cat-hover:hover{
+    color:black
+}
+.Superbrands{
+    display:none;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size:13.5px;
+    text-align: left;
+}
+.image1,.image2{
+    width:300px;
+    height:300px;
+}
+.JustIn,.Bestsellers,.designers,.clothing,.shoes,.Bags,.Accessories,.discount,.iris,.whattowear{
+    display:none;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size:15px;
+    text-align: left;
+}
+.images-w{
+    display:flex;
+}
+.image1{
+    margin-right:30px;
+}
+.line-w{
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(225, 213, 213);
+}
+.margin-topw{
+    margin-top:40px;
+}
+.color-bold-w{
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
