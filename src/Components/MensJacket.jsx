@@ -7,10 +7,10 @@ import Footer from './Footer';
 export default function MensJacket() {
     const [data, setData] = useState([])
     const getData = async()=>{
-        const res = await axios.get(`https://dotnetdataa.herokuapp.com/data/men`)
+        const res = await axios.get(`https://outnetclone.herokuapp.com/data`)
         // console.log(res.data.mensdata);
         // console.log(res)
-        setData(res.data.mensdata) 
+        setData(res.data.womensdata) 
       }
       useEffect(()=>{
         getData()
