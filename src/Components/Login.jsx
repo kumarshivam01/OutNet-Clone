@@ -106,7 +106,7 @@ export const Login = () => {
             })
             
             .catch((err) => dispatch(loginfailure(err)));
-            alert('Password or username not match')
+            
             
            
     }
