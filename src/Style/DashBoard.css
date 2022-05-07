@@ -1,0 +1,33 @@
+
+.dashBoardContainer{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    margin: auto;
+    /* gap: 1%; */
+    
+
+}
+.dashBoardContainer>div{
+    border: 1px solid gray;
+    margin: 5px;
+    
+    height: 175px;
+}
+.dashmain>h1{
+margin-left: 81px;
+}
+.dashmain>p{
+    margin-left: 81px;
+    /* color: lightgray; */
+    font-size: 17px;
+}
+.dashmin{
+    box-sizing: border-box;
+   padding: 26px;
+}
+.dashmin>span{
+   border: 0px;
+   align-items: baseline;
+}
