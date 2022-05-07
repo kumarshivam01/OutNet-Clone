@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom'
 import { MenNavbar } from './MenNavbar'
 import { WomenNavbar } from './WomenNavbar'
 import "../Style/Nav.css"
+// import { Link } from 'react-router-dom'
 export const NavBar=()=>{
 const [gender,setGender]=useState(false)
 const [women,setWomen] = useState("Grey")
@@ -21,7 +22,7 @@ const [men,setMen] = useState("Black")
             <div className="nav-sec1 box">
                 <div className="nav-innersec">
                  <BsPerson className="nav-sign-icon"></BsPerson>
-                 <p className="nav-font-size">Sign In</p> 
+                 <Link to="/signup"><p className="nav-font-size">Sign In</p> </Link>
                 </div>
                 <div className="nav-innersec">
                  <img className="navbar-india" src="https://tse1.mm.bing.net/th?id=OIP.--08d7AwyCcZXcRwlIflRQHaFS&pid=Api&P=0&w=230&h=164" alt="india"></img>
