@@ -97,4 +97,11 @@
         display:flex;
         justify-content: space-between;
     }
+    .menu{
+        font-size: 23px;
+        margin: 10px;
+    }
+    .search-icon{
+        font-size:23px;
+    }
 }
