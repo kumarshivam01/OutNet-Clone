@@ -90,7 +90,7 @@
     margin-bottom: 4px;
 }
 @media screen and (max-width:1020px){
-    .main{
+    .main-nav{
         display: none;
     }
 }

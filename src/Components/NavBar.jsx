@@ -1,6 +1,7 @@
 import {BsPerson} from 'react-icons/bs'
 import {HiOutlineSearch} from 'react-icons/hi'
 import {FiHeart} from 'react-icons/fi'
+import {GiHamburgerMenu} from 'react-icons/gi'
 import { useState } from 'react'
 // import {Women} from "./WomenNavbar"
 // import { Men} from "./MenNavbar"
@@ -15,7 +16,7 @@ const [men,setMen] = useState("Black")
   
     return(
         <div>
-            <div className="main">
+            <div className="main-nav">
             <div className="navbar-top">
             <div className="nav-sec1 box">
                 <div className="nav-innersec">
@@ -63,8 +64,15 @@ const [men,setMen] = useState("Black")
         </div>
        {gender?<MenNavbar></MenNavbar>:<WomenNavbar></WomenNavbar>}
         </div>
-        <div className="second">
-            
+        <div className="second-nav">
+          <div className="">
+              <GiHamburgerMenu></GiHamburgerMenu>
+              <h1>OUTNET</h1>
+              <span>
+              <FiHeart></FiHeart>
+              <img className="basket" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOCAyMy43Ij48cGF0aCBkPSJNMjYuMyA2LjdsMS43IDE3SDBsMS43LTE3aDcuOEMxMSAxLjkgMTIuNCAwIDE0IDBzMyAxLjkgNC41IDYuN2g3Ljh6TTE0IDEuN2MtLjMgMC0xLjIuNC0yLjcgNWg1LjVjLTEuNi00LjUtMi41LTUtMi44LTV6TTIuNCAyMS42aDIzLjJMMjQuMyA4LjhoLTUuMmMuMyAxIC42IDIuMS45IDMuM2wtMS43LjRjLS4zLTEuMy0uNy0yLjUtMS0zLjdoLTYuOGMtLjQgMS4yLS43IDIuNS0xIDMuN2wtMS43LS40Yy4zLTEuMi42LTIuMy45LTMuM0gzLjZMMi40IDIxLjZ6Ii8+PC9zdmc+" alt="" />
+              </span>
+              </div>
         </div>
         </div>
  
