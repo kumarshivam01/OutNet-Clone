@@ -18,6 +18,9 @@ import MidiSkirts from './Components/MidiSkirts';
 import { AboutUs } from './Components/Aboutus';
 import Abcd from './Components/Abcd';
 import Product from './Components/Product';
+import { Login } from './Components/Login';
+import { SignUp } from './Components/Signup';
+import { DashBoard } from './Components/DashBoard';
 // import { NavBar } from './components/NavBar';
 // import ProductDisplay from './Components/Product_display';
 function App() {
@@ -42,6 +45,9 @@ function App() {
         <Route exact path='/men/mens-shirts-clothes' element={<MensShirts/>}/>
         <Route exact path='/men/mens-jacket-clothes' element={<MensJacket/>}/>
         <Route exact path='/aboutus' element={<AboutUs />} />
+        <Route path='/login' element={<Login/>} />
+        <Route path='/signup' element={<SignUp/>} /> 
+        <Route path='/dashboard' element={<DashBoard/>} /> 
 
         <Route element={<Error />} />
         

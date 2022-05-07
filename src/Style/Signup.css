@@ -1,0 +1,296 @@
+/* #pic{
+    height: auto;
+width: 1300px;
+border: 1px solid black;
+margin: auto;
+}
+#login-form-div{
+    height: auto;
+    width: 500px;
+    margin: auto;  
+    text-align: center;
+    border: 1px solid;
+    text-align: left;
+    
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+#form{
+    margin: auto;
+}
+#pic{
+    height: auto;
+width: 1300px;
+border: 1px solid black;
+margin: auto;
+}
+#pics{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    border: 1px solid black;
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+#welcome{
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+}
+#welcometext{
+    font-weight:100;
+    margin-left: auto;
+}
+#email{
+    height: 79px;
+    width: 100%;
+    border: 1 px solid black;
+}
+#login-form-div{
+    height: auto;
+    width: 500px;
+    margin: auto;  
+    text-align: center;
+    border: 1px solid;
+    text-align: left;
+    
+    margin-top: 75px;
+    
+}
+.mana{
+    margin-left: 25px;
+}
+.f1{
+    width: 90%;
+    margin-bottom: 40px;
+    padding: 5px;
+margin-left: 15px;
+    height: 30px;
+}
+#fu{
+    margin-top: 40px;
+}
+
+#signinbu{
+    width: 94%;
+    height: 43px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border-bottom: 30px;
+    margin-left: 20px;
+}
+
+
+
+.f2{
+    color: grey;
+    margin-left: 20px;
+   
+}
+.line{
+    border: 1px solid black;
+}
+
+
+.f3{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+#p{
+    height: 900px;
+width: 1300px;
+border: 1px solid transparent;
+margin: auto;
+background: url("https://www.theoutnet.com/assets/ton-background-images/high-res.jpg");
+}
+#login-form-di{
+    height: 700px;
+    width: 500px;
+    margin:80px auto;  
+    text-align: center;
+  
+    text-align: left;
+    background-color: white;
+   
+}
+.f1{
+    width: 90%;
+    margin-bottom: 40px;
+    padding: 5px;
+margin-left: 15px;
+    height: 40px;
+} */
+
+
+/* #pic{
+    height: auto;
+width: ;
+border: 1px solid black;
+margin: auto;
+} */
+/* #login-form-div{
+    height: auto;
+    width: 500px;
+    margin: auto;  
+    text-align: center;
+    border: 1px solid;
+    text-align: left;
+    
+    margin-top: 75px;
+    margin-bottom: 75px;
+} */
+/* #form{
+    margin: auto;
+} */
+/* #pic{
+    height: auto;
+width: 1300px;
+border: 1px solid black;
+margin: auto;
+} */
+/* #pics{
+    height: 100%;
+    width: 100%;
+} */
+/* #main{
+    border: 1px solid black;
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+} */
+/* #welcome{
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+} */
+/* #welcometext{
+    font-weight:100;
+    margin-left: auto;
+} */
+/* #email{
+    height: 79px;
+    width: 100%;
+    border: 1 px solid black;
+} */
+/* #login-form-div{
+    height: auto;
+    width: 500px;
+    margin: auto;  
+    text-align: center;
+    border: 1px solid;
+    text-align: left;
+    
+    margin-top: 75px;
+    
+} */
+/* .mana{
+    margin-left: 25px;
+    padding: 10px;
+} */
+/* .f1{
+    width: 90%;
+    margin-bottom: 40px;
+    padding: 5px;
+margin-left: 15px;
+    height: 30px;
+} */
+/* #fu{
+    margin-top: 40px;
+} */
+
+/* #signinbu{
+    width: 94%;
+    height: 43px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border-bottom: 30px;
+    margin-left: 20px;
+} */
+
+
+
+/* .f2{
+    color: grey;
+    margin-left: 20px;
+    
+}
+.line{
+    border: 1px solid black;
+}
+
+
+.f3{
+    margin-top: 0px;
+    margin-left: 20px;
+} */
+#p{
+    height: 100vh;
+width: 90%;
+border: 1px solid transparent;
+margin: auto;
+background: url("https://www.theoutnet.com/assets/ton-background-images/high-res.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+box-sizing: border-box;
+
+
+}
+#login-form-di{
+    height: 90%;
+    width: 50%;
+    margin:10px auto;  
+    text-align: center;
+   /* border: 1px solid red; */
+    /* text-align: left; */
+    background-color: white;
+
+   
+}
+.f1{
+    width: 90%;
+    margin-bottom: 40px;
+    padding: 5px;
+margin-left: 15px;
+    height: 40px;
+}
+.change_login_div{
+    margin-left: 3%;
+    margin-bottom: 30px;
+}
+
+.change_login_div > div{
+    display: flex;
+   margin-bottom: 8px;
+}
+
+.change_login_div > div > p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.radioBtn_div{
+    margin: 2px;
+
+    height: 22px;
+    width: 22px;
+    border: 0.5px solid rgb(34, 34, 34);
+    border-radius: 50%;
+}
+
+.radioBtn_div_clicked{
+    margin: 2px;
+
+    height: 25px;
+    width: 25px;
+    border: 7.5px solid black;
+    border-radius: 50%;
+}
