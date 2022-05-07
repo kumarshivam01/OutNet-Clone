@@ -2,6 +2,7 @@ import React from 'react'
 import '../Style/LandingPage.css'
 import { Link } from 'react-router-dom'
 import { NavBar } from './NavBar'
+import { SignUp } from './Signup'
 export default function LandingPage() {
   return (
     <>
