@@ -7,6 +7,8 @@
     .nav-sec1{
     display:flex;
     padding-left:70px;
+    width:20%;
+    border:1px solid black;
     }
     .nav-sign-icon{
     margin-top:12px;
@@ -86,4 +88,9 @@
     }
 .search-icon{
     margin-bottom: 4px;
+}
+@media screen and (max-width:1020px){
+    .main{
+        display: none;
+    }
 }

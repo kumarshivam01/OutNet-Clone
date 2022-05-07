@@ -15,6 +15,7 @@ const [men,setMen] = useState("Black")
   
     return(
         <div>
+            <div className="main">
             <div className="navbar-top">
             <div className="nav-sec1 box">
                 <div className="nav-innersec">
@@ -61,6 +62,10 @@ const [men,setMen] = useState("Black")
          </div>
         </div>
        {gender?<MenNavbar></MenNavbar>:<WomenNavbar></WomenNavbar>}
+        </div>
+        <div className="second">
+            
+        </div>
         </div>
  
   
