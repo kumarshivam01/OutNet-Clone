@@ -8,6 +8,7 @@ export default function Women() {
       <>
         <MenAndWomen
          li={left_img}
+         
          ri={right_img} 
          para1="HELMUT LANG AT UP TO 55% OFF" 
          para2="Modern minimalism that never gets old" 
