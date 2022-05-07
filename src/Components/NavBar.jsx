@@ -66,7 +66,7 @@ const [men,setMen] = useState("Black")
        {gender?<MenNavbar></MenNavbar>:<WomenNavbar></WomenNavbar>}
         </div>
         <div className="second-nav">
-          <div className="">
+          <div className="second-n">
               <GiHamburgerMenu></GiHamburgerMenu>
               <h1>OUTNET</h1>
               <span>

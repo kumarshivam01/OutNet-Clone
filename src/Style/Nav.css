@@ -93,4 +93,8 @@
     .main-nav{
         display: none;
     }
+    .second-n{
+        display:flex;
+        justify-content: space-between;
+    }
 }
