@@ -38,10 +38,11 @@ export const Login = () => {
             .then((res) => res.json())
             .then((res) => {
                 dispatch(loginSuccess(res.token));
+                alert("Login Successfully")
                 navigate("/");
             })
             
-            .catch((err) => dispatch(loginfailure(err)));
+            .catch((error) => dispatch(loginfailure(error)));
             
             
            

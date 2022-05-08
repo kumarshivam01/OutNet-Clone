@@ -21,6 +21,8 @@ import Product from './Components/Product';
 import { Login } from './Components/Login';
 import { SignUp } from './Components/Signup';
 import { DashBoard } from './Components/DashBoard';
+import { Order } from './Components/OrderCheck';
+import Footer from './Components/Footer';
 // import { NavBar } from './components/NavBar';
 // import ProductDisplay from './Components/Product_display';
 function App() {
@@ -45,9 +47,11 @@ function App() {
         <Route exact path='/men/mens-shirts-clothes' element={<MensShirts/>}/>
         <Route exact path='/men/mens-jacket-clothes' element={<MensJacket/>}/>
         <Route exact path='/aboutus' element={<AboutUs />} />
+        <Route exact path='/footer' element={<Footer />} />
         <Route path='/login' element={<Login/>} />
         <Route path='/signup' element={<SignUp/>} /> 
         <Route path='/dashboard' element={<DashBoard/>} /> 
+        <Route path='/orders' element={<Order/>} /> 
 
         <Route element={<Error />} />
         

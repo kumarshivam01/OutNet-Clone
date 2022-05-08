@@ -5,6 +5,7 @@
     grid-template-columns: repeat(3,1fr);
     width: 90%;
     margin: auto;
+    
     /* gap: 1%; */
     
 
@@ -15,17 +16,26 @@
     
     height: 175px;
 }
-.dashmain>h1{
-margin-left: 81px;
+.dashBoardContainer>div:hover{
+    border: 1px solid black;
+    
 }
+.dashmain>h1{
+margin-left: 100px;
+
+
+}
+
 .dashmain>p{
-    margin-left: 81px;
+    margin-left: 100px;
     /* color: lightgray; */
     font-size: 17px;
 }
+
 .dashmin{
     box-sizing: border-box;
    padding: 26px;
+   
 }
 .dashmin>span{
    border: 0px;

@@ -31,15 +31,15 @@ const [men,setMen] = useState("Black")
                 
             </div>
          <div className="nav-sec2">
-         <p>Track Your Order</p>
+         <Link to="/dashboard"><p>Track Your Order</p></Link>
          <p className="nav-color">|</p>
-         <p>Create A return</p>
+         <Link to='/dashboard'><p>Create A return</p></Link>
          <p className="nav-color">|</p>
-         <p>Customer Care</p>
+         <Link to='/footer'><p>Customer Care</p></Link>
          <p className="nav-color">|</p>
-         <p>Delivery</p>
+         <Link to='/dashboard'><p>Delivery</p></Link>
          <p className="nav-color">|</p>
-         <p>Returns</p>
+         <Link to='/dashboard'><p>Return</p></Link>
             </div>
         </div>
         <div className="navbar-bottom">

@@ -1,0 +1,49 @@
+.Order-Container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 650px;
+    /* justify-content: space-around; */
+    margin-top: 90px;
+}
+.Order-Container>div{
+    border: 1px solid white;
+}
+.left{
+    width: 30%;
+}
+.left>p{
+    padding: 6px;
+}
+.left>p:hover{
+    color: gray;
+}
+.right{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+.right>h1{
+    text-align: center;
+    margin-top: 20%;
+    
+}
+.right>p{
+    text-align: center;
+    
+    
+}
+.right>h5{
+    text-align: center;
+    text-decoration: underline;
+    
+    
+}
+.right>h5:hover{
+    color: gray;
+    
+    
+}
