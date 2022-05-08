@@ -32,12 +32,17 @@ import HelmetProduct from './Components/HelmetProduct'
 import MensJacketProduct from './Components/MensJacketProduct'
 import MenShirtsProduct from './Components/MenShirtsProduct'
 import MenPantsProduct from './Components/MenPantsProduct'
+
+import GirlsBlazerProduct from './Components/GirlsBlazerProduct';
+// import { NavBar } from './components/NavBar';
+
 // import { Payment } from '@mui/icons-material';
 import { PaymentWay } from './Components/PaymentWay';
 import { Checkout } from './Components/Address';
 import { Success } from './Components/Succespage';
 
 // import { NavBar } from './Components/NavBar';
+
 // import ProductDisplay from './Components/Product_display';
 function App() {
   // const { isAuthenticated } = useSelector((state) => state.login)
@@ -56,6 +61,7 @@ function App() {
         <Route exact path='/products/mens-jacket/:id' element={<MensJacketProduct/>}/>
         <Route exact path='/products/men-t-shirts-clothes/:id' element={<MenShirtsProduct/>}/>
         <Route exact path='/products/men-pants-clothes/:id' element={<MenPantsProduct/>}/>
+        <Route exact path='/product/women-blazers/:id' element={<GirlsBlazerProduct/>}/>
         {/* <NavBar/> */}
         <Route exact path='/men' element={<Men />} />
         <Route exact path='/cart' element={<Cart />} />

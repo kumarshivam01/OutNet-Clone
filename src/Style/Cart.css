@@ -105,3 +105,51 @@
 .cart-container{
     background-color: rgb(221, 221, 221);
 }
+*{
+    font-family: sans-serif;
+}
+.orderSummary{
+    width: 30%;
+    margin-top: 13px;
+    border: 1px solid grey;
+    background-color: white;
+    margin-bottom: 10%;
+}
+.orderSummary>p{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+.subtotal1{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    font-weight: 600;
+}
+.button29{
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+.button29>button{
+    border: none;
+    width: 90%;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px;
+}
+.visaCard{
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 10%;
+}
