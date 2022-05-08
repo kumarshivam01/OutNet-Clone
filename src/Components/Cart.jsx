@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
+import { Link } from "react-router-dom";
 import '../Style/Cart.css'
 import { NavBar } from './NavBar'
 export default function Cart() {
@@ -57,7 +58,7 @@ export default function Cart() {
             
         </div>
         <div class="button29">
-            <button>Proceed to checkout</button>
+            <Link to='/address'><button>Proceed to checkout</button></Link>
         </div>
         <div class="visaCard">
                 <p></p>

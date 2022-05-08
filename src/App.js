@@ -38,6 +38,8 @@ import GirlsBlazerProduct from './Components/GirlsBlazerProduct';
 
 // import { Payment } from '@mui/icons-material';
 import { PaymentWay } from './Components/PaymentWay';
+import { Checkout } from './Components/Address';
+import { Success } from './Components/Succespage';
 
 // import { NavBar } from './Components/NavBar';
 
@@ -82,6 +84,8 @@ function App() {
         <Route path='/dashboard' element={<DashBoard/>} /> 
         <Route path='/orders' element={<Order/>} /> 
         <Route path='/payments' element={<PaymentWay/>} /> 
+        <Route path='/address' element={<Checkout/>} /> 
+        <Route path='/success' element={<Success/>} /> 
 
         <Route element={<Error />} />
         

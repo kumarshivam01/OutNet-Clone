@@ -1,8 +1,9 @@
 import "../Style/Aboutus.css"
 // import { useDispatch } from "react-redux"
+import { Link } from "react-router-dom";
 // import {addCart} from '../Redux/action'
 export const  PaymentWay=()=>{
-    return  <div>
+    return  <div className="topgyan">
          <div id="heading123">Choose Payment Method</div>
          <div id="abcdefg">
       <div id="Whichcart">
@@ -37,22 +38,19 @@ export const  PaymentWay=()=>{
                <img src="https://www.nykaafashion.com/assets/desktop/images/checkout/bank-card-back-side.png" alt="" />
                </div>
               
-               <div id="text23334">Last 3 Digit At the Back of the Card</div>
+               <div id="text23334"><h5>Last 3 Digit At the Back of the Card</h5></div>
            </div>
            <div id="savethis">
                  <input type="checkbox" id="checkbox" />
            
            <div>Save This Card for Future</div>
        </div>
-       <div id="paynow" onclick="alertpop()"><h3>PAY NOW</h3></div>
+       <Link to='/success'><div id="paynow" ><h3>PAY NOW</h3></div></Link>
       </div>
        
      </div>
     </div>
-    function alertpop(){
-        alert("Payment Successfull")
-    }
-    alertpop()
+   
     }
 
     
