@@ -7,9 +7,11 @@ import Footer from './Footer';
 export default function HelmetLang() {
     const [data, setData] = useState([])
     const getData = async()=>{
-        const res = await axios.get(`https://dotnetdataa.herokuapp.com/data/men`)
-        
-        setData(res.data.mensdata) 
+
+        const res = await axios.get(`https://sandlasdata.herokuapp.com/velentinos`)
+        // console.log(res.data.mensdata);
+        // console.log(res)
+        setData(res.data.velendata) 
       }
       useEffect(()=>{
         getData()
@@ -23,7 +25,7 @@ export default function HelmetLang() {
   return (
     <>
     <NavBar/>
-        <Product_display Data={data} para10={para10} heading10={heading10} img10={img10} />
+        <Product_display Data={data} route="/product/helmet/" para10={para10} heading10={heading10} img10={img10} />
         <Footer/>
     </>
   )

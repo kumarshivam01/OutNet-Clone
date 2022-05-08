@@ -1,4 +1,6 @@
 import "../Style/Aboutus.css"
+import { useDispatch } from "react-redux"
+import {addCart} from '../Redux/action'
 function Payment(){
     return  <div>
          <div id="heading123">Choose Payment Method</div>

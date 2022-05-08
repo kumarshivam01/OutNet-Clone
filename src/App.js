@@ -16,25 +16,44 @@ import Blazers from './Components/Blazers';
 import Sandal from './Components/Sandal';
 import MidiSkirts from './Components/MidiSkirts';
 import { AboutUs } from './Components/Aboutus';
-// import Abcd from './Components/Abcd';
+
+import Cart from './Components/Cart';
 import Product from './Components/Product';
 import { Login } from './Components/Login';
 import { SignUp } from './Components/Signup';
+import MiniSkirtDetails from './Components/MiniSkirtDetails';
 import { DashBoard } from './Components/DashBoard';
 import { Order } from './Components/OrderCheck';
 import Footer from './Components/Footer';
-// import { NavBar } from './components/NavBar';
+import AliceOlivaProduct from './Components/AliceOlivaProduct'
+import ValentinoProduct from './Components/ValentinoProduct'
+import SandalProduct from './Components/SandalProduct'
+import HelmetProduct from './Components/HelmetProduct'
+import MensJacketProduct from './Components/MensJacketProduct'
+import MenShirtsProduct from './Components/MenShirtsProduct'
+import MenPantsProduct from './Components/MenPantsProduct'
+import { NavBar } from './components/NavBar';
 // import ProductDisplay from './Components/Product_display';
 function App() {
   // const { isAuthenticated } = useSelector((state) => state.login)
   return (
-
+  
     <>
+    <NavBar/>
       <Routes>
         <Route exact path='/' element={<LandingPage/>}/>
-        <Route exact path='/products/:id' element={<Product/>}/>
+        <Route exact path='/products/midi-skirts-clothes/:id' element={<MiniSkirtDetails/>}/>
+        <Route exact path='/products/Dolce-gabbana/:id' element={<Product/>}/>
+        <Route exact path='/products/Alice+Olivia-clothes/:id' element={<AliceOlivaProduct/>}/>
+        <Route exact path='/product/Valentino/:id' element={<ValentinoProduct/>}/>
+        <Route exact path='/product/sandal/:id' element={<SandalProduct/>}/>
+        <Route exact path='/product/helmet/:id' element={<HelmetProduct/>}/>
+        <Route exact path='/products/mens-jacket/:id' element={<MensJacketProduct/>}/>
+        <Route exact path='/products/men-t-shirts-clothes/:id' element={<MenShirtsProduct/>}/>
+        <Route exact path='/products/men-pants-clothes/:id' element={<MenPantsProduct/>}/>
         {/* <NavBar/> */}
         <Route exact path='/men' element={<Men />} />
+        <Route exact path='/cart' element={<Cart />} />
         <Route exact path='/women' element={<Women />} />
         <Route exact path='/men/pant-clothes' element={<MenCollection/>}/>
         <Route exact path='/women/valantion-clothes' element={<WomenCollection/>}/>
@@ -46,6 +65,7 @@ function App() {
         <Route exact path='/men/helmet-Lang-clothes' element={<HelmetLang/>}/>
         <Route exact path='/men/mens-shirts-clothes' element={<MensShirts/>}/>
         <Route exact path='/men/mens-jacket-clothes' element={<MensJacket/>}/>
+        
         <Route exact path='/aboutus' element={<AboutUs />} />
         <Route exact path='/footer' element={<Footer />} />
         <Route path='/login' element={<Login/>} />
