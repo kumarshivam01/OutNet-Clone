@@ -30,6 +30,7 @@ import HelmetProduct from './Components/HelmetProduct'
 import MensJacketProduct from './Components/MensJacketProduct'
 import MenShirtsProduct from './Components/MenShirtsProduct'
 import MenPantsProduct from './Components/MenPantsProduct'
+import GirlsBlazerProduct from './Components/GirlsBlazerProduct';
 // import { NavBar } from './components/NavBar';
 // import ProductDisplay from './Components/Product_display';
 function App() {
@@ -48,6 +49,7 @@ function App() {
         <Route exact path='/products/mens-jacket/:id' element={<MensJacketProduct/>}/>
         <Route exact path='/products/men-t-shirts-clothes/:id' element={<MenShirtsProduct/>}/>
         <Route exact path='/products/men-pants-clothes/:id' element={<MenPantsProduct/>}/>
+        <Route exact path='/product/women-blazers/:id' element={<GirlsBlazerProduct/>}/>
         {/* <NavBar/> */}
         <Route exact path='/men' element={<Men />} />
         <Route exact path='/cart' element={<Cart />} />

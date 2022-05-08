@@ -7,10 +7,10 @@ import Footer from './Footer';
 export default function Blazers() {
     const [data, setData] = useState([])
     const getData = async()=>{
-        const res = await axios.get(`https://dotnetdataa.herokuapp.com/data/men`)
+        const res = await axios.get(`https://sandlasdata.herokuapp.com/blazers`)
         // console.log(res.data.mensdata);
         // console.log(res)
-        setData(res.data.mensdata) 
+        setData(res.data.tshirtdata) 
       }
       useEffect(()=>{
         getData()
@@ -24,7 +24,7 @@ export default function Blazers() {
   return (
     <>
     <NavBar/>
-        <Product_display Data={data} para10={para10} heading10={heading10} img10={img10} />
+        <Product_display Data={data} route="/product/women-blazers/" para10={para10} heading10={heading10} img10={img10} />
         <Footer/>
     </>
   )
