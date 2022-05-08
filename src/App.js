@@ -34,6 +34,8 @@ import MenShirtsProduct from './Components/MenShirtsProduct'
 import MenPantsProduct from './Components/MenPantsProduct'
 // import { Payment } from '@mui/icons-material';
 import { PaymentWay } from './Components/PaymentWay';
+import { Checkout } from './Components/Address';
+import { Success } from './Components/Succespage';
 
 // import { NavBar } from './Components/NavBar';
 // import ProductDisplay from './Components/Product_display';
@@ -76,6 +78,8 @@ function App() {
         <Route path='/dashboard' element={<DashBoard/>} /> 
         <Route path='/orders' element={<Order/>} /> 
         <Route path='/payments' element={<PaymentWay/>} /> 
+        <Route path='/address' element={<Checkout/>} /> 
+        <Route path='/success' element={<Success/>} /> 
 
         <Route element={<Error />} />
         

@@ -1,0 +1,25 @@
+
+
+#main {
+    text-align: left;
+    width:40%;
+    margin:auto;
+    padding:20px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  input{
+    margin-bottom: 10px;
+    width:95%;
+    height:40px;
+  }
+  #main > label{
+    font-size: small;
+  }
+  form>button{
+    margin-left: 25%;
+    width:50%;
+    height:40px;
+    background-color: black;
+    color:white;
+  }
