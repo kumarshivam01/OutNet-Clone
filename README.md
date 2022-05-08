@@ -14,6 +14,48 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+
+<h1># Outnut clone
+<h2>Clone of Outnet
+<p>Shop luxury fashion & new arrivals added every day. Shop ovrs with new arrivals every day at THE OUTNET. Exclusive Interviews. Menswear Available. Over 350 Luxury Designers. </p>
+
+<h2>How to run the app?</h2>
+<p>Clone the repo and open with the live-server</p>
+<a href="https://github.com/kumarshivam01/OutNet-Clone">https://github.com/kumarshivam01/OutNet-Clone</a><br>
+<h2>Built with</h2>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Mongo DB</li>
+<li>express</li>
+<li>React</li>
+<li>Redux</li>
+<li>Nodejs</li>
+<li>Local Storage</li>
+<li>Font awesome</li>
+<li>Google fonts</li>
+<li>API</li>
+<li>DOM</li>
+<br>
+<h2>Built Page</h2>
+<li>Landing Page</li>
+<li>clothes Display Page</li>
+<li>cart Page</li>
+<li>Signup Page</li>
+<li>Login Page</li>
+<li>Payment Page</li>
+<li>Checkout Page</li>
+<li>Filter low to High</li>
+
+<br>
+<h2>Some Screen shot of Project</h2>
+<img style="width: 1000px; height: 400px;" src="https://user-images.githubusercontent.com/98182315/167253737-08c09903-0e95-441b-94af-86da244a8e78.png"/>
+<img style="width: 1000px; height: 400px;" src="https://user-images.githubusercontent.com/98182315/167253771-94832141-e8c2-492b-b850-07d238442fa8.png"/>
+<img style="width: 1000px; height: 400px;" src="https://user-images.githubusercontent.com/98182315/167253793-bb6d6712-ce49-45b3-8bf6-004d106175f3.png"/>
+<img style="width: 1000px; height: 400px;" src="https://user-images.githubusercontent.com/98182315/167253823-5ae76fe1-97fd-4a0e-a040-6188adecd402.png"/>
+<img style="width: 1000px; height: 400px;" src="https://user-images.githubusercontent.com/98182315/167253837-f43aae83-d253-4bdd-9510-532d471bcad0.png"/>
+
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\

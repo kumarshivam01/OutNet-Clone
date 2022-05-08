@@ -4,8 +4,8 @@
     .category{
         display:flex;
         justify-content: space-between;
-        padding-left: 290px;
-        padding-right:290px;
+        padding-left: 230px;
+        padding-right:230px;
         color:grey;
         font-size:13.5px;
     
@@ -42,9 +42,10 @@
     .line-w{
         padding-bottom: 20px;
         border-bottom: 1px solid rgb(225, 213, 213);
+        font-size:16px;
     }
     .margin-topw{
-        margin-top:40px;
+        margin-top:19px;
     }
     .color-bold-w{
         font-weight: 500;

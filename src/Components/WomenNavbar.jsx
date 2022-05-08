@@ -168,7 +168,7 @@ export const WomenNavbar=()=>{
                 setStyle({display: 'none'})
             }}>
             <div>
-                <h3 className="line-w">Shop by Category</h3><hr></hr>
+                <h3 id="font1" className="line-w">Shop by Category</h3>
                 <p>All Superbrands</p>
                 <p>Bags</p>
                 <p>Boots</p>
@@ -181,7 +181,7 @@ export const WomenNavbar=()=>{
                 <p>Tops</p>
             </div>
             <div>
-                <h3 className="line-w">Shop By Designers</h3>
+                <h3 id="font2" className="line-w">Shop By Designers</h3>
                 <p>Alexander McQueen</p>
                 <p>Balenciaga</p>
                 <p>Balmain</p>
@@ -211,13 +211,13 @@ export const WomenNavbar=()=>{
                 setStyle1({display: 'none'})
             }}>
         <div>
-                <h3 className="line-w">Shop Just In</h3>
+                <h3 id="font3" className="line-w">Shop Just In</h3>
                 <p>All Just In</p>
                 <p>Just In Last Week</p>
                 <p>New Season</p>
        </div> 
        <div>
-           <h3 className="line-w">This Week's Designers</h3>
+           <h3 id="font4" className="line-w">This Week's Designers</h3>
            <p>Alberta Ferretti</p>
                 <p>Alice + Olivia</p>
                 <p>Ben Amun</p>
@@ -247,7 +247,7 @@ export const WomenNavbar=()=>{
              setStyle2({display: 'none'})
          }}>
             <div>
-        <h3 className="line-w">Shop by Category</h3>
+        <h3 id="font5" className="line-w">Shop by Category</h3>
                 <p>All Bestsellers</p>
                 <p>Accessories</p>
                 <p>Bags</p>
@@ -260,7 +260,7 @@ export const WomenNavbar=()=>{
                 <p>Tops</p>
             </div>
             <div>
-           <h3 className="line-w">Shop By Designers</h3>
+           <h3 id="font6" className="line-w">Shop By Designers</h3>
            <p>DKNY</p>
            <p>Ganni</p>
            <p>Herve Leger</p>
@@ -291,7 +291,7 @@ export const WomenNavbar=()=>{
              setStyle3({display: 'none'})
          }}>
  <div>
-     <h3 className="line-w">Shop By Designers</h3>
+     <h3 id="font7" className="line-w">Shop By Designers</h3>
      <p>All 350+ Designers</p>
      <p>Superbrands</p>
      <p>Contemporary</p>
@@ -316,7 +316,7 @@ export const WomenNavbar=()=>{
      <p>Zimmermann</p>
  </div>
  <div>
-     <h3 className="line-w">New Designers</h3>
+     <h3 id="font8" className="line-w">New Designers</h3>
      <p>See All New Designers</p>
      <p>Amiri</p>
      <p>Bondi Born</p>
@@ -338,7 +338,7 @@ export const WomenNavbar=()=>{
              setStyle4({display: 'none'})
          }}>
  <div>
-     <h3 className="line-w">Shop Clothing</h3>
+     <h3 id="font9" className="line-w">Shop Clothing</h3>
      <p>All Clothing</p>
      <p>Just In Clothing</p>
      <p>New Season</p>
@@ -386,7 +386,7 @@ export const WomenNavbar=()=>{
              setStyle5({display: 'none'})
          }}>
  <div>
-     <h3 className="line-w">Shop Shoes</h3>
+     <h3 id="font10" className="line-w">Shop Shoes</h3>
      <p>All Shoes</p>
      <p>Boots</p>
      <p>Bridal</p>
@@ -397,7 +397,7 @@ export const WomenNavbar=()=>{
      <p>Sneakers</p>
  </div>
  <div>
-     <h3 className="line-w">Shop By Designers</h3>
+     <h3 id="font11" className="line-w">Shop By Designers</h3>
      <p>By Far</p>
      <p>Gianvito Rossi</p>
      <p>Giuseppe Zanotti</p>
@@ -424,7 +424,7 @@ export const WomenNavbar=()=>{
              setStyle6({display: 'none'})
          }}>
  <div>
-     <h3 className="line-w">Shop Bags</h3>
+     <h3 id="font12" className="line-w">Shop Bags</h3>
      <p>All Bags</p>
      <p>just In Bags</p>
      <p>Backpacks</p>
@@ -435,7 +435,7 @@ export const WomenNavbar=()=>{
      <p>Totes</p>
  </div>
  <div>
-     <h3 className="line-w">Shop By Designers</h3>
+     <h3 id="font13" className="line-w">Shop By Designers</h3>
      <p>DKNY</p>
      <p>Kate Spade New York</p>
      <p>Love Moschino</p>
@@ -463,7 +463,7 @@ export const WomenNavbar=()=>{
              setStyle7({display: 'none'})
          }}> 
  <div>
-     <h3 className="line-w">Shop By Category</h3>
+     <h3 id="font14" className="line-w">Shop By Category</h3>
      <p>All Accessories</p>
      <p>All Gifts</p>
      <p>Earings</p>
@@ -476,7 +476,7 @@ export const WomenNavbar=()=>{
      <p>Wallets</p>
  </div>
  <div>
-     <h3 className="line-w">Shop By Designers</h3>
+     <h3 id="font15" className="line-w">Shop By Designers</h3>
      <p>Ben-Amun</p>
      <p>Brunello Cucinelli</p>
      <p>Burberry</p>
@@ -507,7 +507,7 @@ export const WomenNavbar=()=>{
              setStyle8({display: 'none'})
          }}>
  <div>
-                <h3 className="line-w">Shop by Category</h3>
+                <h3 id="font16" className="line-w">Shop by Category</h3>
                 <p>All Styles at 70% off</p>
                 <p>Bags</p>
                 <p>Boots</p>
@@ -520,7 +520,7 @@ export const WomenNavbar=()=>{
                 <p>Tops</p>
             </div> 
             <div>
-                <h3 className="line-w">Shop By Designers</h3>
+                <h3 id="font17" className="line-w">Shop By Designers</h3>
                 <p>Acne Studios</p>
                 <p>Diane Von Furstenberg</p>
                 <p>Ganni</p>
@@ -550,7 +550,7 @@ export const WomenNavbar=()=>{
              setStyle9({display: 'none'})
          }}>
      <div>
-         <h3 className="line-w">Shop Iris & Ink</h3>
+         <h3 id="font18" className="line-w">Shop Iris & Ink</h3>
          <p>All Iris & Ink</p>
          <p>Clothing</p>
          <p>Dresses</p>
@@ -580,7 +580,7 @@ export const WomenNavbar=()=>{
              setStyle10({display: 'none'})
          }}>
      <div>
-         <h3 className="line-w">What To Wear</h3>
+         <h3 id="font19" className="line-w">What To Wear</h3>
          <p>All Editorial</p>
          <p>This Season</p>
          <p>Between Seasons</p>
@@ -593,7 +593,7 @@ export const WomenNavbar=()=>{
          <p>Key Trends</p>
      </div>
      <div>
-         <h3 className="line-w">Interviews & Features</h3>
+         <h3 id="font1" className="line-w">Interviews & Features</h3>
          <p>Daisy Edgar-Jones</p>
          <p>Florence Pugh</p>
          <p>Nick Carvell</p>
@@ -604,7 +604,7 @@ export const WomenNavbar=()=>{
          <p>The Icons: Stonewash Jeans</p>
      </div>
      <div>
-      <h3 className="line-w">The Considered Hub</h3>
+      <h3 id="font20" className="line-w">The Considered Hub</h3>
       <p>Iris & Ink</p>
       <p>Clothing</p>
       <p>Digital ID</p>

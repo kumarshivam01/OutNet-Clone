@@ -38,7 +38,11 @@
 .line{
     padding-bottom: 20px;
     border-bottom: 1px solid rgb(225, 213, 213);
+    font-size:16px;
 }
+/* #font1,#font2,#font3,#font4,#font5,#font6,#font7,#font8,#font9,#font10,#font11,#font12,#font13,#font14,#font15,#font16,#font17,#font18#font19#font20{
+    font-size:18px
+} */
 .margin-top{
-    margin-top:36px;
+    margin-top:19px;
 } 

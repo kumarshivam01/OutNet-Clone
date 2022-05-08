@@ -16,7 +16,7 @@ import Blazers from './Components/Blazers';
 import Sandal from './Components/Sandal';
 import MidiSkirts from './Components/MidiSkirts';
 import { AboutUs } from './Components/Aboutus';
-import Abcd from './Components/Abcd';
+// import Abcd from './Components/Abcd';
 import Product from './Components/Product';
 import { Login } from './Components/Login';
 import { SignUp } from './Components/Signup';

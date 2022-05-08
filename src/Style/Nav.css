@@ -6,7 +6,9 @@
     }
     .nav-sec1{
     display:flex;
-    padding-left:70px;
+    padding-left:5%;
+    width:30%;
+    /* border:1px solid black; */
     }
     .nav-sign-icon{
     margin-top:12px;
@@ -19,14 +21,17 @@
     }
     .nav-font-size{
         font-size:13px;
+        margin-top: 12px;
     }
     .nav-sec2{
         display:flex;
-        padding-right:70px;
+        padding-right:5%;
         justify-content:space-between;
-        width:400px;
+        width:40%;
+        margin-top:12px;
         font-size:12px;
         color:rgb(71, 70, 70);
+        /* border:1px solid black; */
     }
     .navbar-top{
         display:flex;
@@ -40,13 +45,15 @@
     .basket{
         width:25px;
         height:25px;
+        margin-bottom: 4px;
     }
     .navbar-bottom{
         display:flex;
         justify-content: space-between;
-        padding-left: 120px;
-        padding-right:120px;
+        padding-left: 12%;
+        padding-right:12%;
         font-family: Segoe UI;
+        /* border:1px solid black; */
     }
     .sec1{
         display:flex; 
@@ -59,10 +66,11 @@
     .sec2{
         display:flex;
         font-size: 20px;
-        width:180px;
+        width:19%;
         justify-content: space-between;
         height:27px;
-        margin-top: 40px;
+        margin-top: 20px;
+        /* border:1px solid black; */
     }
     .women{
     
@@ -81,3 +89,43 @@
         font-size:35px;
         font-weight: 500;
     }
+.search-icon{
+    margin-bottom: 4px;
+}
+.second-nav{
+    display:none;
+}
+@media screen and (max-width:1020px){
+    .second-nav{
+        display:block;
+        width:100%;
+    }
+    .main-nav{
+        display: none;
+    }
+    .second-n{
+        display:flex;
+        justify-content: space-between;
+    }
+    .menu{
+        font-size: 23px;
+        margin: 10px;
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+    .search-icon{
+        font-size:23px;
+    }
+    .left-n{
+        margin:10px;
+        margin-right: 20px;
+    }
+    .basket{
+        margin-left: 20px;
+    }
+    .web-head{
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}

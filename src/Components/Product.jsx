@@ -53,7 +53,7 @@ export default function Product() {
         
         return (
             <>
-            {/* <NavBar/> */}
+            <NavBar/>
                 <div className="container">
                     <div className="wrapper">
                     {product.image != undefined ?<div className="allDetails">
