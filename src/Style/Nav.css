@@ -97,9 +97,11 @@
 }
 @media screen and (max-width:1020px){
     .second-nav{
-        display:block;
+        display:inline;
         width:100%;
+        
     }
+    
     .main-nav{
         display: none;
     }

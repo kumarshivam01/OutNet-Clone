@@ -61,7 +61,7 @@ export default function Cart() {
             <Link to='/address'><button>Proceed to checkout</button></Link>
         </div>
         <div class="visaCard">
-                <p>123456</p>
+                <p></p>
         </div>
     </div>
                 </div>
