@@ -16,4 +16,5 @@ export const signupSuccess=(payload)=>({
 
 export const signupFailure=()=>({
     type:SIGNUP_FAILURE
+    
 });

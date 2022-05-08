@@ -1,7 +1,7 @@
 import "../Style/Aboutus.css"
-import { useDispatch } from "react-redux"
-import {addCart} from '../Redux/action'
-function Payment(){
+// import { useDispatch } from "react-redux"
+// import {addCart} from '../Redux/action'
+export const  PaymentWay=()=>{
     return  <div>
          <div id="heading123">Choose Payment Method</div>
          <div id="abcdefg">
@@ -50,10 +50,9 @@ function Payment(){
      </div>
     </div>
     function alertpop(){
-         alert("Payment Successfull")
-     }
+        alert("Payment Successfull")
+    }
+    alertpop()
     }
 
     
-
-export {Payment}

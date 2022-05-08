@@ -168,7 +168,7 @@ export const SignUp = () => {
             <div id="p">
                 <div id="login-form-di">
 
-                    <h1 className="mana">Welcome</h1>
+                    <h1 className="mana">Register Now</h1>
                     <hr className="line"></hr>
                     <input type="text"
                         id="fu"

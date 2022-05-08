@@ -32,6 +32,9 @@ import HelmetProduct from './Components/HelmetProduct'
 import MensJacketProduct from './Components/MensJacketProduct'
 import MenShirtsProduct from './Components/MenShirtsProduct'
 import MenPantsProduct from './Components/MenPantsProduct'
+// import { Payment } from '@mui/icons-material';
+import { PaymentWay } from './Components/PaymentWay';
+
 // import { NavBar } from './Components/NavBar';
 // import ProductDisplay from './Components/Product_display';
 function App() {
@@ -72,6 +75,7 @@ function App() {
         <Route path='/signup' element={<SignUp/>} /> 
         <Route path='/dashboard' element={<DashBoard/>} /> 
         <Route path='/orders' element={<Order/>} /> 
+        <Route path='/payments' element={<PaymentWay/>} /> 
 
         <Route element={<Error />} />
         
