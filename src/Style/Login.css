@@ -53,14 +53,18 @@ background-repeat: no-repeat;
 /* box-sizing: border-box; */
 }
 #login-form-di{
-    height: 550px;
+    height: 850px;
     width: 50%;
-    margin:80px auto;  
+    margin:20px auto;  
     text-align: center;
    /* border: 1px solid red; */
-    text-align: left;
+    /* text-align: left; */
     background-color: white;
    
+}
+.mana{
+    
+    padding: 10px;
 }
 #fu{
     margin-top: 50px;

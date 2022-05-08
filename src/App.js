@@ -16,13 +16,15 @@ import Blazers from './Components/Blazers';
 import Sandal from './Components/Sandal';
 import MidiSkirts from './Components/MidiSkirts';
 import { AboutUs } from './Components/Aboutus';
-// import Abcd from './Components/Abcd';
+
 import Cart from './Components/Cart';
 import Product from './Components/Product';
 import { Login } from './Components/Login';
 import { SignUp } from './Components/Signup';
 import MiniSkirtDetails from './Components/MiniSkirtDetails';
 import { DashBoard } from './Components/DashBoard';
+import { Order } from './Components/OrderCheck';
+import Footer from './Components/Footer';
 import AliceOlivaProduct from './Components/AliceOlivaProduct'
 import ValentinoProduct from './Components/ValentinoProduct'
 import SandalProduct from './Components/SandalProduct'
@@ -30,14 +32,22 @@ import HelmetProduct from './Components/HelmetProduct'
 import MensJacketProduct from './Components/MensJacketProduct'
 import MenShirtsProduct from './Components/MenShirtsProduct'
 import MenPantsProduct from './Components/MenPantsProduct'
+
 import GirlsBlazerProduct from './Components/GirlsBlazerProduct';
 // import { NavBar } from './components/NavBar';
+
+// import { Payment } from '@mui/icons-material';
+import { PaymentWay } from './Components/PaymentWay';
+
+// import { NavBar } from './Components/NavBar';
+
 // import ProductDisplay from './Components/Product_display';
 function App() {
   // const { isAuthenticated } = useSelector((state) => state.login)
   return (
-
+  
     <>
+    
       <Routes>
         <Route exact path='/' element={<LandingPage/>}/>
         <Route exact path='/products/midi-skirts-clothes/:id' element={<MiniSkirtDetails/>}/>
@@ -66,9 +76,12 @@ function App() {
         <Route exact path='/men/mens-jacket-clothes' element={<MensJacket/>}/>
         
         <Route exact path='/aboutus' element={<AboutUs />} />
+        <Route exact path='/footer' element={<Footer />} />
         <Route path='/login' element={<Login/>} />
         <Route path='/signup' element={<SignUp/>} /> 
         <Route path='/dashboard' element={<DashBoard/>} /> 
+        <Route path='/orders' element={<Order/>} /> 
+        <Route path='/payments' element={<PaymentWay/>} /> 
 
         <Route element={<Error />} />
         

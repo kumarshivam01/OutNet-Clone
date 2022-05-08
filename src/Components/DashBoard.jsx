@@ -7,22 +7,31 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import AddCardIcon from '@mui/icons-material/AddCard';
 import LoyaltyIcon from '@mui/icons-material/Loyalty';
 import EmailIcon from '@mui/icons-material/Email';
+import Footer from "./Footer";
+import { NavBar } from "./NavBar";
+import { Link } from "react-router-dom";
 const name="GYAN"
 export const DashBoard=()=>{
 
 
  return (
 
-
+    <div>
+    <NavBar/>
+    <hr />
     <div className="dashmain">
 <p>`GOOD AFTER NOON {name}`</p>
 <h1>Welcome to your Account</h1>
 <div className="dashBoardContainer">
 
-    <div className="dashmin"> 
-    <span><AddShoppingCartIcon/></span> <span>My Order</span>
+
+<div className="dashmin"> 
+<Link to="/Orders">
+<span><AddShoppingCartIcon/></span> <span>My Order</span>
         
         <p>Track Your order or create a return</p>
+</Link>
+    
 
     </div>
     <div className="dashmin"><span><FavoriteIcon/></span> <span>Wish List</span>
@@ -37,7 +46,8 @@ export const DashBoard=()=>{
 </div>
 
     </div>
-
+    <Footer/>
+    </div>
 
  )
 
