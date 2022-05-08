@@ -3,6 +3,7 @@ import {HiOutlineSearch} from 'react-icons/hi'
 import {FiHeart} from 'react-icons/fi'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import { useState } from 'react'
+import { useSelector } from 'react-redux'
 // import {Women} from "./WomenNavbar"
 // import { Men} from "./MenNavbar"
 import { Link } from 'react-router-dom'
@@ -14,7 +15,7 @@ export const NavBar=()=>{
 const [gender,setGender]=useState(false)
 const [women,setWomen] = useState("Grey")
 const [men,setMen] = useState("Black")
-  
+  const state = useSelector((state)=> state.handleCart)
     return(
         <div>
             <div className="main-nav">
@@ -60,7 +61,10 @@ const [men,setMen] = useState("Black")
          <div className="sec2">
              <span className="search"><HiOutlineSearch className="search-icon"></HiOutlineSearch>Search</span>
              <span><FiHeart></FiHeart></span>
-             <span><img className="basket" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOCAyMy43Ij48cGF0aCBkPSJNMjYuMyA2LjdsMS43IDE3SDBsMS43LTE3aDcuOEMxMSAxLjkgMTIuNCAwIDE0IDBzMyAxLjkgNC41IDYuN2g3Ljh6TTE0IDEuN2MtLjMgMC0xLjIuNC0yLjcgNWg1LjVjLTEuNi00LjUtMi41LTUtMi44LTV6TTIuNCAyMS42aDIzLjJMMjQuMyA4LjhoLTUuMmMuMyAxIC42IDIuMS45IDMuM2wtMS43LjRjLS4zLTEuMy0uNy0yLjUtMS0zLjdoLTYuOGMtLjQgMS4yLS43IDIuNS0xIDMuN2wtMS43LS40Yy4zLTEuMi42LTIuMy45LTMuM0gzLjZMMi40IDIxLjZ6Ii8+PC9zdmc+" alt="" /></span>
+             <Link to="/cart">
+
+             <span><img className="basket" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyOCAyMy43Ij48cGF0aCBkPSJNMjYuMyA2LjdsMS43IDE3SDBsMS43LTE3aDcuOEMxMSAxLjkgMTIuNCAwIDE0IDBzMyAxLjkgNC41IDYuN2g3Ljh6TTE0IDEuN2MtLjMgMC0xLjIuNC0yLjcgNWg1LjVjLTEuNi00LjUtMi41LTUtMi44LTV6TTIuNCAyMS42aDIzLjJMMjQuMyA4LjhoLTUuMmMuMyAxIC42IDIuMS45IDMuM2wtMS43LjRjLS4zLTEuMy0uNy0yLjUtMS0zLjdoLTYuOGMtLjQgMS4yLS43IDIuNS0xIDMuN2wtMS43LS40Yy4zLTEuMi42LTIuMy45LTMuM0gzLjZMMi40IDIxLjZ6Ii8+PC9zdmc+" alt="" /><span style={{borderRadius:"40%", backgroundColor:"black", color:"white", padding:"3px",marginLeft:"10px",padding:"5px"}}>{state.length}</span></span>
+             </Link>
          </div>
         </div>
        {gender?<MenNavbar></MenNavbar>:<WomenNavbar></WomenNavbar>}

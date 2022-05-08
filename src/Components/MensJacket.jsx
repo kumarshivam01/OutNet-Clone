@@ -24,7 +24,7 @@ export default function MensJacket() {
   return (
     <>
     <NavBar/>
-        <Product_display Data={data} para10={para10} heading10={heading10} img10={img10} />
+        <Product_display Data={data} route="/products/mens-jacket/" para10={para10} heading10={heading10} img10={img10} />
         <Footer/>
     </>
   )

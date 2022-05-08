@@ -4,7 +4,8 @@ import Abcd from './Abcd'
 import { Link } from 'react-router-dom'
 export default function Product_display(props) {
   // console.log(props.Data)
-
+  // console.log(props.route)
+  const [ROUTE, setRoute] = useState(props.route)
   // console.log(props.Data.price)
   return (
     <>
@@ -93,11 +94,14 @@ export default function Product_display(props) {
 
           <div className='product_display'>
             {props.Data.map((value) => {
+              {/* const [ROUTE, setRoute] = useState(props.route) */}
+              const route = props.route
+              console.log(route)
               return (
                 <>
                   <div>
                     <div className='product_display_div' >
-                      <Link to={`/products/${value._id}`}><img src={value.image[0]} alt="" /></Link>
+                      <Link to={`${route}${value._id}`}><img src={value.image[0]} alt="" /></Link>
                       <div>
                         <span className='product_heading'>{value.name}</span><br />
                         <span className='product_description'>{value.about}</span><br />

@@ -6,7 +6,7 @@ import {addCart} from '../Redux/action'
 import { NavBar } from "./NavBar"
 import Skeleton from 'react-loading-skeleton'
 import '../Style/Product.css'
-export default function Product() {
+export default function MenShirtsProduct() {
     const { id } = useParams();
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState(false)
@@ -20,8 +20,8 @@ export default function Product() {
     useEffect(() => {
         const getProduct = async () => {
             setLoading(true);
-            const res = await axios.get(`https://sandlasdata.herokuapp.com/grabinas/${id}`);
-            setProduct(res.data.grabinadata);
+            const res = await axios.get(`https://sandlasdata.herokuapp.com/tshirts/${id}`);
+            setProduct(res.data.tshirtdata);
             setLoading(false)
             console.log(product)
         }
