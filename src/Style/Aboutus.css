@@ -1,5 +1,29 @@
 
 #buttonstyle{
+
+    height:50px ;
+    width: 300px;
+    color: rgb(51, 48, 48);
+    background-color: white;
+    cursor: pointer;
+    font-size: 15px;
+
+ }
+ #buttonstyle:hover {
+   background-color: black;
+   
+
+   color: white;
+   }
+ .margintop{
+   margin-top: 20px;
+ }
+ .margintop2{
+   margin-top: 10px;
+ }
+ .margintop1{
+   margin-top: 50px;
+
   height:50px ;
   width: 300px;
   color: rgb(51, 48, 48);
@@ -8,7 +32,7 @@
   font-size: 15px;
 }
 @media screen and (min-width: 481px) and (max-width: 768px) { 
- /* STYLES HERE */
+
  .grid{
    display: grid;
    grid-template-columns: repeat(2,49%);
@@ -20,6 +44,7 @@
 #buttonstyle:hover {
  background-color: black;
  color: white;
+
  }
 .margintop{
  margin-top: 20px;

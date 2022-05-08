@@ -7,6 +7,7 @@ import Footer from './Footer';
 export default function HelmetLang() {
     const [data, setData] = useState([])
     const getData = async()=>{
+
         const res = await axios.get(`https://sandlasdata.herokuapp.com/velentinos`)
         // console.log(res.data.mensdata);
         // console.log(res)
