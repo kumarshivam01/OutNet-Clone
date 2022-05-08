@@ -60,7 +60,7 @@ export default function Cart() {
             <button>Proceed to checkout</button>
         </div>
         <div class="visaCard">
-                <p>123456</p>
+                <p></p>
         </div>
     </div>
                 </div>

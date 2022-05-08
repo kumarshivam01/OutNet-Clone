@@ -79,22 +79,25 @@ export const NavBar = () => {
                     </span>
                 </div> */}
 
-                <nav className="navbar navbar-light bg-light fixed-top">
+                <nav className="navbar navbar-light bg-light">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#">THE OUTNET</a>
-                        <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <Link className="navbar-brand" to="/">THE OUTNET</Link>
+                        <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" >
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div className="offcanvas offcanvas-end"  id="offcanvasNavbar" >
                             <div className="offcanvas-header">
-                                <h5 className="offcanvas-title" id="offcanvasNavbarLabel">THE OUTNET</h5>
-                                <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                <h5 className="offcanvas-title" >THE OUTNET</h5>
+                                <button type="button" className="btn-close " data-bs-dismiss="offcanvas" ></button>
                             </div>
                             <div className="offcanvas-body">
-                                <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                    <li className="nav-item">
-                                        <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                                <ul className="navbar-nav justify-content-end flex-grow-1">
+                                    <li >
+                                        <Link type='scroll' to="/">Home</Link>
                                     </li>
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="/dashboard">Dashboard</Link>
+                                    </li>  
                                     <li className="nav-item">
                                         <Link className="nav-link" to="/men">Men Clothes</Link>
                                     </li>
@@ -106,14 +109,14 @@ export const NavBar = () => {
                                     </li>
                                     <li className="nav-item">
                                         <Link className="nav-link" to="/signup">Login & Signup</Link>
-                                    </li>
+                                    </li>  
                                     
                                 </ul>
-                                
                             </div>
                         </div>
                     </div>
                 </nav>
+
             </div>
         </div>
 
