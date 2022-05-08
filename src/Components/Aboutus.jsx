@@ -81,7 +81,7 @@ function AboutUs(){
         </div>
         <Footer/>
     </div>
-    <Footer/>
+    
          </>
     )
       
