@@ -16,7 +16,7 @@ You may also see any lint errors in the console.
 
 
 <h1># Outnut clone
-<h2>Clone of Outnet
+<h2>Clone of Outnet</h2>
 <p>Shop luxury fashion & new arrivals added every day. Shop ovrs with new arrivals every day at THE OUTNET. Exclusive Interviews. Menswear Available. Over 350 Luxury Designers. </p>
 
 <h2>How to run the app?</h2>
