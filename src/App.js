@@ -32,14 +32,14 @@ import HelmetProduct from './Components/HelmetProduct'
 import MensJacketProduct from './Components/MensJacketProduct'
 import MenShirtsProduct from './Components/MenShirtsProduct'
 import MenPantsProduct from './Components/MenPantsProduct'
-import { NavBar } from './components/NavBar';
+// import { NavBar } from './Components/NavBar';
 // import ProductDisplay from './Components/Product_display';
 function App() {
   // const { isAuthenticated } = useSelector((state) => state.login)
   return (
   
     <>
-    <NavBar/>
+    
       <Routes>
         <Route exact path='/' element={<LandingPage/>}/>
         <Route exact path='/products/midi-skirts-clothes/:id' element={<MiniSkirtDetails/>}/>
