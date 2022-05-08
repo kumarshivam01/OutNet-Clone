@@ -90,6 +90,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  
+
+### Blog
+You can read article about this clone by clicking [**here**](https://medium.com/p/9b830c1849ba)
 
 ### Analyzing the Bundle Size
 
