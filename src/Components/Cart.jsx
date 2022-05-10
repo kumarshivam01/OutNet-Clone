@@ -8,6 +8,9 @@ export default function Cart() {
     console.log(counter.handleCart[0].about)
     // console.log(useSelector)
     return (
+        <>
+
+        
         <div className='container265'>
             <NavBar />
             <div className='cart-container'>
@@ -47,25 +50,26 @@ export default function Cart() {
                         }
                     </div>
                     <div class="orderSummary">
-        <p>Order Summary</p>
-        <div>
-            <div class="subtotal"><div>Sub-Total</div><div>$68</div></div>
-            <div class="subtotal"><div>Shipping</div><div>$68</div></div>
-            <div class="subtotal"><div>taxes & duties</div><div>$68.50</div></div>
-        </div>
-        <div>
-            <div class="subtotal1"><div>Total(USD)</div><div>$143.51</div></div>
-            
-        </div>
-        <div class="button29">
-            <Link to='/address'><button>Proceed to checkout</button></Link>
-        </div>
-        <div class="visaCard">
-                <p></p>
-        </div>
-    </div>
+                        <p>Order Summary</p>
+                        <div>
+                            <div class="subtotal"><div>Sub-Total</div><div>$68</div></div>
+                            <div class="subtotal"><div>Shipping</div><div>$68</div></div>
+                            <div class="subtotal"><div>taxes & duties</div><div>$68.50</div></div>
+                        </div>
+                        <div>
+                            <div class="subtotal1"><div>Total(USD)</div><div>$143.51</div></div>
+
+                        </div>
+                        <div class="button29">
+                            <Link to='/address'><button>Proceed to checkout</button></Link>
+                        </div>
+                        <div class="visaCard">
+                            <p></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        </>
     )
 }

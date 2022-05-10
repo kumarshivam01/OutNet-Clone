@@ -96,13 +96,59 @@
     display:none;
 }
 @media screen and (max-width:1020px){
-    .second-nav{
+    .search{
+        display: none;
+    }
+    .span132{
+        display: none;
+    }
+    .navbar-bottom{
+        display:flex;
+        justify-content: space-between;
+        /* padding-left: 12%; */
+        /* padding-right:12%; */
+        font-family: Segoe UI;
+        /* border:1px solid black; */
+    }
+    .women{
+    margin: auto;
+        /* border-right:1px solid rgb(174, 174, 174); */
+        /* height:27px; */
+        /* padding-right: 10px; */
+    }
+    .title{
+        font-size:15px;
+        font-weight: 500;
+    }
+    .sec1{
+        display:flex; 
+        font-weight: 600;
+        font-size: 20px;
+        /* margin-top: 22px; */
+        
+    
+    }
+    /* .second-nav{
         display:inline;
         width:100%;
         
-    }
+    } */
     
-    .main-nav{
+    /* .main-nav{
+        display: none;
+    } */
+    .navbar-top{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .nav-sec1{
+        display:flex;
+        /* padding-left:5%; */
+        width:100%;
+        justify-content: space-between;
+        /* border:1px solid black; */
+        }
+    .nav-sec2{
         display: none;
     }
     .second-n{
@@ -116,14 +162,16 @@
         margin-left: 20px;
     }
     .search-icon{
-        font-size:23px;
+        /* font-size:23px; */
+        display: none;
     }
     .left-n{
         margin:10px;
         margin-right: 20px;
     }
     .basket{
-        margin-left: 20px;
+        /* margin-left: 20px; */
+        margin: auto;
     }
     .web-head{
         margin-top: 10px;

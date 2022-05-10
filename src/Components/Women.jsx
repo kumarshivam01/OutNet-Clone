@@ -25,7 +25,7 @@ export default function Women() {
         jacket="https://www.theoutnet.com/cms/ycm/resource/blob/1257600/c72feec6f660a33fc1c146a505328a1b/promo-1-image-data.jpg/w1400_q80.jpg"
         shirts="https://www.theoutnet.com/cms/ycm/resource/blob/1257606/11bf1895499c0119c3591d2872f37ace/promo-2-image-data.jpg/w1400_q80.jpg"
         paint="https://www.theoutnet.com/cms/ycm/resource/blob/1257624/537715f486d42dbead517c9059c6590d/promo-3-image-data.jpg/w1400_q80.jpg"
-        para1="SPRING INTO JUMPSUITS AT UP TO 65% OFF"
+        para1="SPRING INTO JUMPSUITS UP TO 65% OFF"
         para3="FRESH FLOWERS AT UP TO 60% OFF"
         para5="MORE COLOR, MORE JOY, MORE STYLE"
         para6="...for less! Get more out of your new-session wardrobe"

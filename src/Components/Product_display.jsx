@@ -18,7 +18,7 @@ export default function Product_display(props) {
           <div className='clothes-img'>
             <img src={props.img10} alt="" />
           </div>
-          
+
         </div>
         <hr />
         <div className='product_sorting'>
@@ -32,7 +32,7 @@ export default function Product_display(props) {
           </select>
         </div>
         <div className='product_filter_display'>
-          <div className='product_filter'>
+          {/* <div className='product_filter'>
             <hr />
             <div className="accordion" id="accordionExample">
               <div className="accordion-item">
@@ -90,11 +90,11 @@ export default function Product_display(props) {
               </div>
 
             </div>
-          </div>
+          </div> */}
 
           <div className='product_display'>
             {props.Data.map((value) => {
-              {/* const [ROUTE, setRoute] = useState(props.route) */}
+              {/* const [ROUTE, setRoute] = useState(props.route) */ }
               const route = props.route
               console.log(route)
               return (

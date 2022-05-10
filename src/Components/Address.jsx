@@ -28,21 +28,21 @@ export const Checkout = () => {
         </div>
         <form>
             <label>First Name</label><br />
-            <input id="first_name" type="text"></input><br />
+            <input  id="first_name" type="text" required="true"/><br />
             <label>Last Name</label><br />
-            <input id ="last_name" type="text"></input><br />
+            <input required id ="last_name" type="text"></input><br />
             <label>Address line one</label><br />
-            <input id="addressLine1" type="text"></input><br />
+            <input required id="addressLine1" type="text"></input><br />
             <label>Address line two</label><br />
-            <input id="addressLine2" type="text"></input><br />
+            <input required id="addressLine2" type="text"></input><br />
             <label>City</label><br />
-            <input id="city" type="text"></input><br />
+            <input required id="city" type="text"></input><br />
             <label>Province</label><br />
-            <input id="province" type="text"></input><br />
+            <input required id="province" type="text"></input><br />
             <label>ZIP code</label><br />
-            <input id="zipCode" type="Number"></input><br />
+            <input required id="zipCode" type="Number"></input><br />
             <label>Phone number</label><br />
-            <input id="phoneNumber" type="Number"></input><br />
+            <input required id="phoneNumber" type="Number"></input><br />
             <hr />
             <Link to='/payments'><button onClick={saveAddress}>Continue</button></Link>
         </form>

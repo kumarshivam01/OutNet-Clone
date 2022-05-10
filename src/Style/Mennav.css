@@ -46,3 +46,10 @@
 .margin-top{
     margin-top:19px;
 } 
+
+@media screen and (max-width:1020px){
+.main{
+    display: none;
+}
+
+}
